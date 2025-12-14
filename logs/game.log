@@ -1,0 +1,2614 @@
+[2025-12-14 19:24:27] [] Starting Super Mario Game...
+[2025-12-14 19:24:27] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-14 19:24:27] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:24:27] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:24:27] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:24:27] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:24:27] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:24:27] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:24:27] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:24:27] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:24:27] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:24:27] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:24:27] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:24:27] [] GameEngine initialized
+[2025-12-14 19:24:27] [STATE] Game: LOGIN → LOGIN
+[2025-12-14 19:24:27] [] Game loop started
+[2025-12-14 19:24:43] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:24:51] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:24:51] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:24:51] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:24:51] [STATE] Game: MENU → PLAYING
+[2025-12-14 19:24:54] [PLAYER] Jump: 
+[2025-12-14 19:24:55] [OBSERVER] Event: Score - Data: 100
+[2025-12-14 19:24:55] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:24:55] [PLAYER] Jump: 
+[2025-12-14 19:24:56] [PLAYER] Jump: 
+[2025-12-14 19:24:57] [PLAYER] Jump: 
+[2025-12-14 19:24:59] [PLAYER] Jump: 
+[2025-12-14 19:25:00] [PLAYER] Jump: 
+[2025-12-14 19:25:01] [PLAYER] Jump: 
+[2025-12-14 19:25:03] [PLAYER] Jump: 
+[2025-12-14 19:25:04] [OBSERVER] Event: Score - Data: 200
+[2025-12-14 19:25:04] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:25:04] [PLAYER] Jump: 
+[2025-12-14 19:25:07] [PLAYER] Jump: 
+[2025-12-14 19:25:09] [PLAYER] Jump: 
+[2025-12-14 19:25:11] [PLAYER] Jump: 
+[2025-12-14 19:25:12] [PLAYER] Death: Took damage
+[2025-12-14 19:25:12] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 19:25:12] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 19:25:14] [PLAYER] Death: Took damage
+[2025-12-14 19:25:14] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 19:25:14] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 19:25:15] [PLAYER] Jump: 
+[2025-12-14 19:25:15] [PLAYER] Death: Took damage
+[2025-12-14 19:25:15] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 19:25:15] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:25:15] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:25:18] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:25:18] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:25:18] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:25:18] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:25:18] [PLAYER] Jump: 
+[2025-12-14 19:25:18] [PLAYER] Death: Took damage
+[2025-12-14 19:25:18] [PLAYER] Lost life: Lives remaining: -1
+[2025-12-14 19:25:18] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:25:18] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:25:19] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:25:19] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:25:19] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:25:19] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:25:19] [PLAYER] Death: Took damage
+[2025-12-14 19:25:19] [PLAYER] Lost life: Lives remaining: -2
+[2025-12-14 19:25:19] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:25:19] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:25:20] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:25:20] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:25:20] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:25:20] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:25:21] [PLAYER] Jump: 
+[2025-12-14 19:25:22] [PLAYER] Jump: 
+[2025-12-14 19:25:24] [PLAYER] Jump: 
+[2025-12-14 19:25:25] [PLAYER] Jump: 
+[2025-12-14 19:25:26] [PLAYER] Jump: 
+[2025-12-14 19:25:27] [PLAYER] Jump: 
+[2025-12-14 19:25:29] [PLAYER] Jump: 
+[2025-12-14 19:25:30] [PLAYER] Death: Took damage
+[2025-12-14 19:25:30] [PLAYER] Lost life: Lives remaining: -3
+[2025-12-14 19:25:30] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:25:30] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:25:32] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:25:32] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:25:32] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:25:32] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:25:33] [PLAYER] Jump: 
+[2025-12-14 19:25:34] [PLAYER] Death: Took damage
+[2025-12-14 19:25:34] [PLAYER] Lost life: Lives remaining: -4
+[2025-12-14 19:25:34] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:25:34] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:25:35] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:25:35] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:25:35] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:25:35] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:25:35] [PLAYER] Jump: 
+[2025-12-14 19:25:36] [PLAYER] Death: Took damage
+[2025-12-14 19:25:36] [PLAYER] Lost life: Lives remaining: -5
+[2025-12-14 19:25:36] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:25:36] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:25:37] [STATE] Game: GAME_OVER → MENU
+[2025-12-14 19:25:47] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:25:47] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:25:48] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:25:48] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:25:48] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:25:48] [STATE] Game: MENU → PLAYING
+[2025-12-14 19:25:49] [PLAYER] Death: Took damage
+[2025-12-14 19:25:49] [PLAYER] Lost life: Lives remaining: -6
+[2025-12-14 19:25:49] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:25:49] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:25:49] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:25:49] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:25:49] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:25:49] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:25:50] [PLAYER] Death: Took damage
+[2025-12-14 19:25:50] [PLAYER] Lost life: Lives remaining: -7
+[2025-12-14 19:25:50] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:25:50] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:25:51] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:25:51] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:25:51] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:25:51] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:25:51] [OBSERVER] Event: Score - Data: 300
+[2025-12-14 19:25:51] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:25:51] [PLAYER] Jump: 
+[2025-12-14 19:25:53] [PLAYER] Jump: 
+[2025-12-14 19:25:55] [PLAYER] Jump: 
+[2025-12-14 19:25:56] [PLAYER] Death: Took damage
+[2025-12-14 19:25:56] [PLAYER] Lost life: Lives remaining: -8
+[2025-12-14 19:25:56] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:25:56] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:25:57] [STATE] Game: GAME_OVER → MENU
+[2025-12-14 19:25:58] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:25:58] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:25:58] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:25:58] [STATE] Game: MENU → PLAYING
+[2025-12-14 19:25:59] [PLAYER] Jump: 
+[2025-12-14 19:26:02] [PLAYER] Jump: 
+[2025-12-14 19:26:02] [OBSERVER] Event: Score - Data: 400
+[2025-12-14 19:26:02] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:26:04] [PLAYER] Jump: 
+[2025-12-14 19:26:05] [PLAYER] Jump: 
+[2025-12-14 19:26:06] [PLAYER] Jump: 
+[2025-12-14 19:26:07] [PLAYER] Jump: 
+[2025-12-14 19:26:09] [PLAYER] Jump: 
+[2025-12-14 19:26:10] [PLAYER] Jump: 
+[2025-12-14 19:26:13] [PLAYER] Jump: 
+[2025-12-14 19:26:14] [PLAYER] Jump: 
+[2025-12-14 19:26:16] [PLAYER] Jump: 
+[2025-12-14 19:26:18] [PLAYER] Jump: 
+[2025-12-14 19:26:20] [PLAYER] Jump: 
+[2025-12-14 19:26:21] [PLAYER] Jump: 
+[2025-12-14 19:26:22] [PLAYER] Jump: 
+[2025-12-14 19:26:23] [PLAYER] Jump: 
+[2025-12-14 19:26:24] [PLAYER] Jump: 
+[2025-12-14 19:26:25] [PLAYER] Jump: 
+[2025-12-14 19:26:26] [PLAYER] Jump: 
+[2025-12-14 19:26:27] [PLAYER] Jump: 
+[2025-12-14 19:26:28] [PLAYER] Jump: 
+[2025-12-14 19:26:28] [PLAYER] Jump: 
+[2025-12-14 19:26:29] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 19:26:31] [PLAYER] Jump: 
+[2025-12-14 19:26:34] [PLAYER] Jump: 
+[2025-12-14 19:26:36] [PLAYER] Jump: 
+[2025-12-14 19:26:37] [PLAYER] Jump: 
+[2025-12-14 19:26:38] [PLAYER] Jump: 
+[2025-12-14 19:26:42] [PLAYER] Jump: 
+[2025-12-14 19:26:43] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 19:26:43] [LEVEL] Checkpoint activated: 
+[2025-12-14 19:26:44] [PLAYER] Jump: 
+[2025-12-14 19:26:45] [PLAYER] Jump: 
+[2025-12-14 19:26:47] [PLAYER] Jump: 
+[2025-12-14 19:26:49] [PLAYER] Jump: 
+[2025-12-14 19:26:50] [PLAYER] Jump: 
+[2025-12-14 19:26:52] [PLAYER] Jump: 
+[2025-12-14 19:26:53] [PLAYER] Jump: 
+[2025-12-14 19:26:54] [PLAYER] Jump: 
+[2025-12-14 19:26:55] [PLAYER] Jump: 
+[2025-12-14 19:26:56] [PLAYER] Jump: 
+[2025-12-14 19:26:58] [PLAYER] Jump: 
+[2025-12-14 19:26:59] [PLAYER] Jump: 
+[2025-12-14 19:27:00] [PLAYER] Jump: 
+[2025-12-14 19:27:01] [PLAYER] Jump: 
+[2025-12-14 19:27:03] [PLAYER] Jump: 
+[2025-12-14 19:27:04] [PLAYER] Jump: 
+[2025-12-14 19:27:10] [STATE] Game: PLAYING → PAUSED
+[2025-12-14 19:27:14] [STATE] Game: PAUSED → MENU
+[2025-12-14 19:27:18] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:27:26] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:27:27] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:27:27] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:27:27] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:27:27] [STATE] Game: MENU → PLAYING
+[2025-12-14 19:27:28] [PLAYER] Death: Fell off map
+[2025-12-14 19:27:28] [PLAYER] Lost life: Lives remaining: -9
+[2025-12-14 19:27:28] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:27:28] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:27:29] [STATE] Game: GAME_OVER → MENU
+[2025-12-14 19:27:32] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:27:35] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:27:37] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:29:45] [] Starting Super Mario Game...
+[2025-12-14 19:29:45] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-14 19:29:45] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:29:45] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:29:45] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:29:45] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:29:45] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:29:45] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:29:45] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:29:45] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:29:45] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:29:45] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:29:45] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:29:45] [] GameEngine initialized
+[2025-12-14 19:29:45] [STATE] Game: LOGIN → LOGIN
+[2025-12-14 19:29:45] [] Game loop started
+[2025-12-14 19:29:50] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:29:53] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:29:53] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:29:53] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:29:53] [STATE] Game: MENU → PLAYING
+[2025-12-14 19:29:55] [PLAYER] Jump: 
+[2025-12-14 19:29:55] [OBSERVER] Event: Score - Data: 100
+[2025-12-14 19:29:55] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:29:56] [PLAYER] Jump: 
+[2025-12-14 19:29:56] [PLAYER] Jump: 
+[2025-12-14 19:29:57] [PLAYER] Jump: 
+[2025-12-14 19:29:58] [PLAYER] Jump: 
+[2025-12-14 19:29:59] [PLAYER] Jump: 
+[2025-12-14 19:30:05] [PLAYER] Jump: 
+[2025-12-14 19:30:06] [OBSERVER] Event: Score - Data: 200
+[2025-12-14 19:30:06] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:30:07] [PLAYER] Jump: 
+[2025-12-14 19:30:09] [PLAYER] Jump: 
+[2025-12-14 19:30:13] [PLAYER] Jump: 
+[2025-12-14 19:30:14] [PLAYER] Death: Took damage
+[2025-12-14 19:30:14] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 19:30:14] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 19:30:15] [PLAYER] Jump: 
+[2025-12-14 19:30:16] [PLAYER] Death: Took damage
+[2025-12-14 19:30:16] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 19:30:16] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 19:30:16] [PLAYER] Jump: 
+[2025-12-14 19:30:17] [PLAYER] Jump: 
+[2025-12-14 19:30:20] [PLAYER] Jump: 
+[2025-12-14 19:30:22] [OBSERVER] Event: Score - Data: 300
+[2025-12-14 19:30:22] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:30:22] [PLAYER] Jump: 
+[2025-12-14 19:30:24] [PLAYER] Jump: 
+[2025-12-14 19:30:24] [PLAYER] Jump: 
+[2025-12-14 19:30:25] [PLAYER] Jump: 
+[2025-12-14 19:30:26] [PLAYER] Jump: 
+[2025-12-14 19:30:27] [PLAYER] Jump: 
+[2025-12-14 19:30:28] [PLAYER] Jump: 
+[2025-12-14 19:30:30] [PLAYER] Jump: 
+[2025-12-14 19:30:31] [PLAYER] Jump: 
+[2025-12-14 19:30:32] [PLAYER] Jump: 
+[2025-12-14 19:30:34] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 19:30:34] [LEVEL] Checkpoint activated: 
+[2025-12-14 19:30:34] [PLAYER] Death: Fell off map
+[2025-12-14 19:30:34] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 19:30:34] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:30:34] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:30:35] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:30:35] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:30:35] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:30:35] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:30:36] [PLAYER] Death: Fell off map
+[2025-12-14 19:30:36] [PLAYER] Lost life: Lives remaining: -1
+[2025-12-14 19:30:36] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:30:36] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:30:39] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:30:39] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:30:39] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:30:39] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:30:40] [PLAYER] Death: Fell off map
+[2025-12-14 19:30:40] [PLAYER] Lost life: Lives remaining: -2
+[2025-12-14 19:30:40] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:30:40] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:30:41] [STATE] Game: GAME_OVER → MENU
+[2025-12-14 19:30:42] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:30:43] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:30:43] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:30:43] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:30:43] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:30:43] [STATE] Game: MENU → PLAYING
+[2025-12-14 19:30:44] [PLAYER] Death: Fell off map
+[2025-12-14 19:30:44] [PLAYER] Lost life: Lives remaining: -3
+[2025-12-14 19:30:44] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:30:44] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:30:45] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:30:45] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:30:45] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:30:45] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:30:46] [PLAYER] Death: Fell off map
+[2025-12-14 19:30:46] [PLAYER] Lost life: Lives remaining: -4
+[2025-12-14 19:30:46] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:30:46] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:30:47] [STATE] Game: GAME_OVER → MENU
+[2025-12-14 19:30:51] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:40:55] [] Starting Super Mario Game...
+[2025-12-14 19:40:55] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-14 19:40:55] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:40:55] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:40:55] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:40:55] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:40:55] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:40:55] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:40:55] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:40:55] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:40:55] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:40:55] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:40:55] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:40:55] [] GameEngine initialized
+[2025-12-14 19:40:56] [STATE] Game: LOGIN → LOGIN
+[2025-12-14 19:40:56] [] Game loop started
+[2025-12-14 19:40:58] [AUTH] Guest login: Guest
+[2025-12-14 19:40:58] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:41:01] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 19:41:01] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:41:01] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:41:01] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:41:01] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:41:01] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:41:01] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:41:01] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:41:01] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:41:01] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:41:01] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:41:01] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:41:01] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:41:01] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:41:01] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:41:01] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:41:01] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:41:01] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:41:01] [STATE] Game: MENU → PLAYING
+[2025-12-14 19:41:03] [PLAYER] Jump: 
+[2025-12-14 19:41:05] [PLAYER] Jump: 
+[2025-12-14 19:41:06] [OBSERVER] Event: Score - Data: 100
+[2025-12-14 19:41:06] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:41:06] [PLAYER] Jump: 
+[2025-12-14 19:41:06] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 19:41:07] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 19:41:07] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 19:41:07] [PLAYER] Jump: 
+[2025-12-14 19:41:08] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 19:41:08] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:41:08] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:41:08] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:41:08] [OBSERVER] Event: Score - Data: 700
+[2025-12-14 19:41:08] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 19:41:11] [PLAYER] Jump: 
+[2025-12-14 19:41:12] [PLAYER] Jump: 
+[2025-12-14 19:41:13] [PLAYER] Jump: 
+[2025-12-14 19:41:14] [OBSERVER] Event: Score - Data: 900
+[2025-12-14 19:41:14] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:41:16] [PLAYER] Jump: 
+[2025-12-14 19:41:18] [PLAYER] Jump: 
+[2025-12-14 19:41:19] [PLAYER] Jump: 
+[2025-12-14 19:41:21] [PLAYER] Jump: 
+[2025-12-14 19:41:23] [PLAYER] Jump: 
+[2025-12-14 19:41:24] [PLAYER] Jump: 
+[2025-12-14 19:41:25] [PLAYER] Jump: 
+[2025-12-14 19:41:26] [PLAYER] Jump: 
+[2025-12-14 19:41:27] [PLAYER] Jump: 
+[2025-12-14 19:41:28] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 19:41:28] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 19:41:28] [PLAYER] Jump: 
+[2025-12-14 19:41:30] [PLAYER] Jump: 
+[2025-12-14 19:41:32] [PLAYER] Death: Fell off map
+[2025-12-14 19:41:32] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 19:41:32] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 19:41:32] [PLAYER] Jump: 
+[2025-12-14 19:41:33] [PLAYER] Jump: 
+[2025-12-14 19:41:34] [PLAYER] Death: Took damage
+[2025-12-14 19:41:34] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 19:41:34] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 19:41:34] [PLAYER] Jump: 
+[2025-12-14 19:41:35] [PLAYER] Jump: 
+[2025-12-14 19:41:36] [PLAYER] Jump: 
+[2025-12-14 19:41:37] [PLAYER] Jump: 
+[2025-12-14 19:41:38] [PLAYER] Jump: 
+[2025-12-14 19:41:40] [PLAYER] Jump: 
+[2025-12-14 19:41:41] [PLAYER] Jump: 
+[2025-12-14 19:41:42] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 19:41:42] [LEVEL] Checkpoint activated: 
+[2025-12-14 19:41:43] [PLAYER] Death: Fell off map
+[2025-12-14 19:41:43] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 19:41:43] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:41:43] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:41:44] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:41:44] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:41:44] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:41:44] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:41:45] [PLAYER] Death: Fell off map
+[2025-12-14 19:41:45] [PLAYER] Lost life: Lives remaining: -1
+[2025-12-14 19:41:45] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:41:45] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:41:46] [STATE] Game: GAME_OVER → MENU
+[2025-12-14 19:41:47] [STATE] Game: MENU → LEVEL_SELECT
+[2025-12-14 19:41:48] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 19:41:48] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:41:48] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:41:48] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:41:48] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:41:48] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:41:48] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:41:48] [STATE] Game: LEVEL_SELECT → PLAYING
+[2025-12-14 19:41:49] [PLAYER] Death: Fell off map
+[2025-12-14 19:41:49] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 19:41:49] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 19:41:50] [PLAYER] Death: Fell off map
+[2025-12-14 19:41:50] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 19:41:50] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 19:41:51] [PLAYER] Death: Fell off map
+[2025-12-14 19:41:51] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 19:41:51] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:41:51] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:41:52] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:41:52] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:41:52] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:41:52] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:41:54] [PLAYER] Jump: 
+[2025-12-14 19:41:55] [PLAYER] Jump: 
+[2025-12-14 19:41:55] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:41:55] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 19:41:55] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:41:55] [OBSERVER] Event: Score - Data: 200
+[2025-12-14 19:41:57] [PLAYER] Jump: 
+[2025-12-14 19:41:58] [PLAYER] Jump: 
+[2025-12-14 19:42:00] [PLAYER] Jump: 
+[2025-12-14 19:42:01] [PLAYER] Jump: 
+[2025-12-14 19:42:03] [PLAYER] Jump: 
+[2025-12-14 19:42:04] [PLAYER] Jump: 
+[2025-12-14 19:42:05] [PLAYER] Jump: 
+[2025-12-14 19:42:06] [PLAYER] Jump: 
+[2025-12-14 19:42:07] [DECORATOR] Star applied to Player
+[2025-12-14 19:42:07] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 19:42:07] [DECORATOR] Star applied to Player
+[2025-12-14 19:42:07] [OBSERVER] Event: Score - Data: 400
+[2025-12-14 19:42:07] [PLAYER] Jump: 
+[2025-12-14 19:42:08] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 19:42:08] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 19:42:09] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 19:42:12] [PLAYER] Jump: 
+[2025-12-14 19:42:13] [PLAYER] Jump: 
+[2025-12-14 19:42:14] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 19:42:14] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 19:42:14] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 19:42:16] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:42:16] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:42:16] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:42:16] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 19:42:17] [PLAYER] Death: Fell off map
+[2025-12-14 19:42:17] [PLAYER] Lost life: Lives remaining: -1
+[2025-12-14 19:42:17] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:42:17] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:42:19] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:42:19] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:42:19] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:42:19] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:42:20] [PLAYER] Death: Fell off map
+[2025-12-14 19:42:20] [PLAYER] Lost life: Lives remaining: -2
+[2025-12-14 19:42:20] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:42:20] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:42:20] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:42:20] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:42:20] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:42:20] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:42:21] [PLAYER] Death: Fell off map
+[2025-12-14 19:42:21] [PLAYER] Lost life: Lives remaining: -3
+[2025-12-14 19:42:21] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:42:21] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:42:22] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:42:22] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:42:22] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:42:22] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:42:23] [PLAYER] Jump: 
+[2025-12-14 19:42:26] [PLAYER] Jump: 
+[2025-12-14 19:42:27] [PLAYER] Jump: 
+[2025-12-14 19:42:28] [PLAYER] Jump: 
+[2025-12-14 19:42:29] [PLAYER] Jump: 
+[2025-12-14 19:42:32] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 19:42:32] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 19:42:32] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 19:42:36] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:42:36] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:42:36] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:42:36] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 19:42:37] [PLAYER] Death: Fell off map
+[2025-12-14 19:42:37] [PLAYER] Lost life: Lives remaining: -4
+[2025-12-14 19:42:37] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:42:37] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:42:37] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:42:37] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:42:37] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:42:37] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:42:38] [PLAYER] Death: Fell off map
+[2025-12-14 19:42:38] [PLAYER] Lost life: Lives remaining: -5
+[2025-12-14 19:42:38] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:42:38] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:42:39] [PLAYER] Created: at (1400.0, 388.0)
+[2025-12-14 19:42:39] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:42:39] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:42:39] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:42:40] [STATE] Game: PLAYING → PAUSED
+[2025-12-14 19:42:43] [STATE] Game: PAUSED → MENU
+[2025-12-14 19:42:44] [AUTH] Logout: Guest
+[2025-12-14 19:42:44] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:42:48] [AUTH] Guest login: Guest
+[2025-12-14 19:42:48] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:42:49] [AUTH] Logout: Guest
+[2025-12-14 19:42:49] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:42:58] [AUTH] Guest login: Guest
+[2025-12-14 19:42:58] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:42:59] [STATE] Game: MENU → LEADERBOARD
+[2025-12-14 19:43:03] [STATE] Game: LEADERBOARD → MENU
+[2025-12-14 19:43:05] [STATE] Game: MENU → LEVEL_SELECT
+[2025-12-14 19:43:07] [LEVEL] Jumped to: World 1-2: Underground
+[2025-12-14 19:43:07] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:43:07] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 19:43:07] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 19:43:07] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:43:07] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 19:43:07] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 19:43:07] [STATE] Game: LEVEL_SELECT → PLAYING
+[2025-12-14 19:43:11] [PLAYER] Jump: 
+[2025-12-14 19:43:12] [OBSERVER] Event: Score - Data: 100
+[2025-12-14 19:43:12] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:43:12] [PLAYER] Jump: 
+[2025-12-14 19:43:13] [PLAYER] Jump: 
+[2025-12-14 19:43:15] [PLAYER] Jump: 
+[2025-12-14 19:43:16] [PLAYER] Jump: 
+[2025-12-14 19:43:17] [PLAYER] Jump: 
+[2025-12-14 19:43:18] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 19:43:18] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 19:43:19] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 19:43:19] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 19:43:19] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 19:43:20] [PLAYER] Jump: 
+[2025-12-14 19:43:22] [PLAYER] Death: Took damage
+[2025-12-14 19:43:22] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 19:43:22] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 19:43:22] [PLAYER] Jump: 
+[2025-12-14 19:43:24] [PLAYER] Jump: 
+[2025-12-14 19:43:26] [PLAYER] Jump: 
+[2025-12-14 19:43:27] [PLAYER] Jump: 
+[2025-12-14 19:43:28] [PLAYER] Jump: 
+[2025-12-14 19:43:29] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:43:29] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:43:29] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:43:29] [OBSERVER] Event: Score - Data: 800
+[2025-12-14 19:43:30] [PLAYER] Lost power-ups: 
+[2025-12-14 19:43:30] [PLAYER] Death: Took damage
+[2025-12-14 19:43:30] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 19:43:30] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 19:43:31] [PLAYER] Jump: 
+[2025-12-14 19:43:31] [PLAYER] Death: Took damage
+[2025-12-14 19:43:31] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 19:43:31] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:43:31] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:43:32] [STATE] Game: GAME_OVER → MENU
+[2025-12-14 19:43:33] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:43:34] [AUTH] Guest login: Guest
+[2025-12-14 19:43:34] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:43:35] [AUTH] Logout: Guest
+[2025-12-14 19:43:35] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:43:43] [AUTH] Registered: ahmed
+[2025-12-14 19:43:43] [AUTH] Login successful: ahmed
+[2025-12-14 19:43:43] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:43:44] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 19:43:44] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:43:44] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:43:44] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:43:44] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:43:44] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:43:44] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:43:44] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:43:44] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:43:44] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:43:44] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:43:44] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:43:44] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:43:44] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:43:44] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:43:44] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:43:44] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:43:44] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:43:44] [STATE] Game: MENU → PLAYING
+[2025-12-14 19:43:45] [PLAYER] Jump: 
+[2025-12-14 19:43:46] [OBSERVER] Event: Score - Data: 100
+[2025-12-14 19:43:46] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:43:46] [PLAYER] Jump: 
+[2025-12-14 19:43:47] [PLAYER] Jump: 
+[2025-12-14 19:43:47] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 19:43:48] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 19:43:48] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 19:43:48] [PLAYER] Jump: 
+[2025-12-14 19:43:49] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 19:43:49] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 19:43:49] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:43:49] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:43:49] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:43:49] [OBSERVER] Event: Score - Data: 800
+[2025-12-14 19:43:50] [PLAYER] Jump: 
+[2025-12-14 19:43:51] [PLAYER] Jump: 
+[2025-12-14 19:43:53] [PLAYER] Jump: 
+[2025-12-14 19:43:54] [PLAYER] Jump: 
+[2025-12-14 19:43:56] [PLAYER] Jump: 
+[2025-12-14 19:43:57] [PLAYER] Jump: 
+[2025-12-14 19:43:59] [PLAYER] Jump: 
+[2025-12-14 19:44:00] [OBSERVER] Event: Score - Data: 900
+[2025-12-14 19:44:00] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:44:00] [PLAYER] Jump: 
+[2025-12-14 19:44:02] [PLAYER] Jump: 
+[2025-12-14 19:44:04] [PLAYER] Jump: 
+[2025-12-14 19:44:05] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 19:44:05] [LEVEL] Checkpoint activated: 
+[2025-12-14 19:44:05] [PLAYER] Jump: 
+[2025-12-14 19:44:06] [PLAYER] Jump: 
+[2025-12-14 19:44:07] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 19:44:08] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 19:44:08] [PLAYER] Jump: 
+[2025-12-14 19:44:10] [PLAYER] Jump: 
+[2025-12-14 19:44:10] [PLAYER] Jump: 
+[2025-12-14 19:44:11] [PLAYER] Jump: 
+[2025-12-14 19:44:11] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:44:11] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 19:44:11] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:44:11] [OBSERVER] Event: Score - Data: 1300
+[2025-12-14 19:44:13] [PLAYER] Jump: 
+[2025-12-14 19:44:14] [PLAYER] Jump: 
+[2025-12-14 19:44:16] [PLAYER] Jump: 
+[2025-12-14 19:44:17] [PLAYER] Jump: 
+[2025-12-14 19:44:19] [PLAYER] Jump: 
+[2025-12-14 19:44:20] [PLAYER] Jump: 
+[2025-12-14 19:44:21] [PLAYER] Jump: 
+[2025-12-14 19:44:23] [PLAYER] Jump: 
+[2025-12-14 19:44:24] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-14 19:44:25] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-14 19:44:25] [OBSERVER] Event: Coin collected - Data: 10
+[2025-12-14 19:44:26] [PLAYER] Jump: 
+[2025-12-14 19:44:27] [DECORATOR] Star applied to Player
+[2025-12-14 19:44:27] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 19:44:27] [DECORATOR] Star applied to Player
+[2025-12-14 19:44:27] [OBSERVER] Event: Score - Data: 1800
+[2025-12-14 19:44:27] [PLAYER] Jump: 
+[2025-12-14 19:44:30] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 19:44:30] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 19:44:30] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 19:44:34] [PLAYER] Created: at (1400.0, 364.0)
+[2025-12-14 19:44:34] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:44:34] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:44:34] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 19:44:35] [PLAYER] Death: Fell off map
+[2025-12-14 19:44:35] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 19:44:35] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 19:44:36] [PLAYER] Death: Fell off map
+[2025-12-14 19:44:36] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 19:44:36] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 19:44:37] [PLAYER] Jump: 
+[2025-12-14 19:44:41] [PLAYER] Jump: 
+[2025-12-14 19:44:42] [PLAYER] Jump: 
+[2025-12-14 19:44:44] [PLAYER] Jump: 
+[2025-12-14 19:44:47] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 19:44:47] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 19:44:47] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 19:44:50] [PLAYER] Created: at (1400.0, 364.0)
+[2025-12-14 19:44:50] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:44:50] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:44:50] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 19:44:51] [STATE] Game: PLAYING → PAUSED
+[2025-12-14 19:44:53] [STATE] Game: PAUSED → MENU
+[2025-12-14 19:44:56] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:44:57] [AUTH] Guest login: Guest
+[2025-12-14 19:44:57] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:45:00] [STATE] Game: MENU → LEADERBOARD
+[2025-12-14 19:45:00] [STATE] Game: LEADERBOARD → MENU
+[2025-12-14 19:52:49] [] Starting Super Mario Game...
+[2025-12-14 19:52:49] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-14 19:52:49] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:52:49] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:49] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:52:49] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:52:49] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:49] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:52:49] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:52:49] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:49] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:52:49] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:52:49] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:52:49] [] GameEngine initialized
+[2025-12-14 19:52:49] [STATE] Game: LOGIN → LOGIN
+[2025-12-14 19:52:49] [] Game loop started
+[2025-12-14 19:52:53] [] Loaded 1 users
+[2025-12-14 19:52:53] [AUTH] Guest login: Guest
+[2025-12-14 19:52:53] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:52:54] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 19:52:54] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:52:54] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:54] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:52:54] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:52:54] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:54] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:52:54] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:52:54] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:52:54] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:52:54] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:52:54] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:52:54] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:52:54] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:52:54] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:52:54] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:52:54] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:52:54] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:52:54] [STATE] Game: MENU → PLAYING
+[2025-12-14 19:52:55] [PLAYER] Jump: 
+[2025-12-14 19:52:56] [PLAYER] Death: Took damage
+[2025-12-14 19:52:56] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 19:52:56] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 19:52:57] [PLAYER] Jump: 
+[2025-12-14 19:52:58] [OBSERVER] Event: Score - Data: 100
+[2025-12-14 19:52:58] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:52:58] [PLAYER] Jump: 
+[2025-12-14 19:52:58] [PLAYER] Jump: 
+[2025-12-14 19:52:59] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 19:52:59] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 19:52:59] [PLAYER] Jump: 
+[2025-12-14 19:52:59] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 19:53:00] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 19:53:00] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:53:00] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:53:00] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:53:00] [OBSERVER] Event: Score - Data: 700
+[2025-12-14 19:53:01] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 19:53:01] [PLAYER] Jump: 
+[2025-12-14 19:53:02] [PLAYER] Jump: 
+[2025-12-14 19:53:04] [PLAYER] Jump: 
+[2025-12-14 19:53:06] [PLAYER] Jump: 
+[2025-12-14 19:53:08] [PLAYER] Jump: 
+[2025-12-14 19:53:09] [OBSERVER] Event: Score - Data: 900
+[2025-12-14 19:53:09] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:53:10] [PLAYER] Jump: 
+[2025-12-14 19:53:12] [PLAYER] Jump: 
+[2025-12-14 19:53:13] [PLAYER] Jump: 
+[2025-12-14 19:53:14] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 19:53:14] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 19:53:15] [PLAYER] Jump: 
+[2025-12-14 19:53:16] [PLAYER] Jump: 
+[2025-12-14 19:53:18] [PLAYER] Jump: 
+[2025-12-14 19:53:21] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 19:53:21] [LEVEL] Checkpoint activated: 
+[2025-12-14 19:53:21] [PLAYER] Jump: 
+[2025-12-14 19:53:23] [PLAYER] Jump: 
+[2025-12-14 19:53:23] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:53:23] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 19:53:23] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:53:23] [OBSERVER] Event: Score - Data: 1300
+[2025-12-14 19:53:24] [PLAYER] Jump: 
+[2025-12-14 19:53:25] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-14 19:53:25] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-14 19:53:25] [OBSERVER] Event: Coin collected - Data: 10
+[2025-12-14 19:53:26] [DECORATOR] Star applied to Player
+[2025-12-14 19:53:26] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 19:53:26] [DECORATOR] Star applied to Player
+[2025-12-14 19:53:26] [OBSERVER] Event: Score - Data: 1800
+[2025-12-14 19:53:27] [PLAYER] Jump: 
+[2025-12-14 19:53:34] [PLAYER] Jump: 
+[2025-12-14 19:53:34] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 19:53:34] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 19:53:34] [OBSERVER] Event: New leaderboard entry - Data: Guest: 1800
+[2025-12-14 19:53:34] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 19:53:36] [LEVEL] Advanced to: World 1-2: Underground
+[2025-12-14 19:53:36] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:53:36] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 19:53:36] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 19:53:36] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:53:36] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 19:53:36] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 19:53:36] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 19:53:38] [PLAYER] Jump: 
+[2025-12-14 19:53:39] [PLAYER] Jump: 
+[2025-12-14 19:53:40] [PLAYER] Jump: 
+[2025-12-14 19:53:41] [PLAYER] Jump: 
+[2025-12-14 19:53:43] [OBSERVER] Event: Score - Data: 1900
+[2025-12-14 19:53:43] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:53:43] [PLAYER] Jump: 
+[2025-12-14 19:53:45] [PLAYER] Jump: 
+[2025-12-14 19:53:46] [PLAYER] Jump: 
+[2025-12-14 19:53:47] [OBSERVER] Event: Coin collected - Data: 11
+[2025-12-14 19:53:47] [OBSERVER] Event: Coin collected - Data: 12
+[2025-12-14 19:53:48] [OBSERVER] Event: Coin collected - Data: 13
+[2025-12-14 19:53:48] [OBSERVER] Event: Coin collected - Data: 14
+[2025-12-14 19:53:48] [OBSERVER] Event: Coin collected - Data: 15
+[2025-12-14 19:53:49] [PLAYER] Jump: 
+[2025-12-14 19:53:51] [PLAYER] Jump: 
+[2025-12-14 19:53:52] [PLAYER] Jump: 
+[2025-12-14 19:53:55] [OBSERVER] Event: Score - Data: 2500
+[2025-12-14 19:53:55] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:53:55] [PLAYER] Jump: 
+[2025-12-14 19:53:57] [PLAYER] Jump: 
+[2025-12-14 19:53:58] [PLAYER] Jump: 
+[2025-12-14 19:53:59] [PLAYER] Jump: 
+[2025-12-14 19:54:00] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:54:00] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:54:00] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:54:00] [OBSERVER] Event: Score - Data: 2700
+[2025-12-14 19:54:01] [PLAYER] Jump: 
+[2025-12-14 19:54:02] [OBSERVER] Event: Score - Data: 2800
+[2025-12-14 19:54:02] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:54:03] [PLAYER] Jump: 
+[2025-12-14 19:54:04] [PLAYER] Jump: 
+[2025-12-14 19:54:04] [OBSERVER] Event: Score - Data: 2900
+[2025-12-14 19:54:04] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:54:05] [PLAYER] Jump: 
+[2025-12-14 19:54:06] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 19:54:06] [LEVEL] Checkpoint activated: 
+[2025-12-14 19:54:07] [PLAYER] Jump: 
+[2025-12-14 19:54:10] [PLAYER] Jump: 
+[2025-12-14 19:54:10] [DECORATOR] SpeedBoost applied to Player
+[2025-12-14 19:54:10] [FACTORY] PowerUpFactory created: SPEED_BOOST
+[2025-12-14 19:54:10] [DECORATOR] SpeedBoost applied to Player
+[2025-12-14 19:54:10] [OBSERVER] Event: Score - Data: 3100
+[2025-12-14 19:54:10] [PLAYER] Jump: 
+[2025-12-14 19:54:11] [OBSERVER] Event: Coin collected - Data: 16
+[2025-12-14 19:54:12] [OBSERVER] Event: Coin collected - Data: 17
+[2025-12-14 19:54:12] [OBSERVER] Event: Coin collected - Data: 18
+[2025-12-14 19:54:12] [OBSERVER] Event: Coin collected - Data: 19
+[2025-12-14 19:54:13] [PLAYER] Jump: 
+[2025-12-14 19:54:15] [PLAYER] Jump: 
+[2025-12-14 19:54:18] [PLAYER] Jump: 
+[2025-12-14 19:54:18] [DECORATOR] SpeedBoost removed from Player
+[2025-12-14 19:54:21] [PLAYER] Jump: 
+[2025-12-14 19:54:21] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 19:54:21] [LEVEL] Completed: World 1-2: Underground
+[2025-12-14 19:54:21] [OBSERVER] Event: New leaderboard entry - Data: Guest: 3500
+[2025-12-14 19:54:21] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 19:54:30] [LEVEL] Advanced to: World 1-3: Castle
+[2025-12-14 19:54:30] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:54:30] [LEVEL] Started: World 1-3: Castle
+[2025-12-14 19:54:30] [OBSERVER] Event: Notification - Data: Level 3 Start!
+[2025-12-14 19:54:30] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:54:30] [LEVEL] Started: World 1-3: Castle
+[2025-12-14 19:54:30] [OBSERVER] Event: Notification - Data: Level 3 Start!
+[2025-12-14 19:54:30] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 19:54:32] [PLAYER] Jump: 
+[2025-12-14 19:54:34] [OBSERVER] Event: Score - Data: 3600
+[2025-12-14 19:54:34] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:54:34] [PLAYER] Jump: 
+[2025-12-14 19:54:35] [PLAYER] Jump: 
+[2025-12-14 19:54:36] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:54:36] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:54:36] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:54:36] [OBSERVER] Event: Score - Data: 3800
+[2025-12-14 19:54:36] [PLAYER] Jump: 
+[2025-12-14 19:54:37] [OBSERVER] Event: Coin collected - Data: 20
+[2025-12-14 19:54:37] [OBSERVER] Event: Coin collected - Data: 21
+[2025-12-14 19:54:37] [OBSERVER] Event: Coin collected - Data: 22
+[2025-12-14 19:54:38] [PLAYER] Jump: 
+[2025-12-14 19:54:39] [PLAYER] Jump: 
+[2025-12-14 19:54:41] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:54:41] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 19:54:41] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:54:41] [OBSERVER] Event: Score - Data: 4300
+[2025-12-14 19:54:41] [PLAYER] Jump: 
+[2025-12-14 19:54:44] [PLAYER] Jump: 
+[2025-12-14 19:54:48] [PLAYER] Jump: 
+[2025-12-14 19:54:49] [PLAYER] Jump: 
+[2025-12-14 19:54:50] [PLAYER] Jump: 
+[2025-12-14 19:54:51] [PLAYER] Jump: 
+[2025-12-14 19:54:52] [PLAYER] Jump: 
+[2025-12-14 19:54:54] [PLAYER] Death: Fell off map
+[2025-12-14 19:54:54] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 19:54:54] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 19:54:54] [PLAYER] Death: Took damage
+[2025-12-14 19:54:54] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 19:54:54] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:54:54] [OBSERVER] Event: New leaderboard entry - Data: Guest: 4300
+[2025-12-14 19:54:54] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:54:56] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 19:54:56] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:54:56] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:54:56] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:54:56] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:54:56] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:54:56] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:54:56] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:54:56] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:54:56] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:54:56] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:54:56] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:54:56] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:54:56] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:54:56] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:54:56] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:54:56] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:54:56] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:54:56] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:54:57] [PLAYER] Jump: 
+[2025-12-14 19:54:58] [PLAYER] Death: Took damage
+[2025-12-14 19:54:58] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 19:54:58] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 19:54:59] [PLAYER] Jump: 
+[2025-12-14 19:55:00] [OBSERVER] Event: Score - Data: 100
+[2025-12-14 19:55:00] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:55:00] [PLAYER] Jump: 
+[2025-12-14 19:55:00] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 19:55:00] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 19:55:01] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 19:55:01] [PLAYER] Jump: 
+[2025-12-14 19:55:02] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 19:55:02] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:55:02] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:55:02] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:55:02] [OBSERVER] Event: Score - Data: 700
+[2025-12-14 19:55:02] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 19:55:02] [PLAYER] Jump: 
+[2025-12-14 19:55:03] [PLAYER] Jump: 
+[2025-12-14 19:55:05] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 19:55:05] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 19:55:08] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 19:55:08] [LEVEL] Checkpoint activated: 
+[2025-12-14 19:55:08] [PLAYER] Jump: 
+[2025-12-14 19:55:09] [PLAYER] Jump: 
+[2025-12-14 19:55:10] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:55:10] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 19:55:10] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:55:10] [OBSERVER] Event: Score - Data: 1200
+[2025-12-14 19:55:10] [PLAYER] Jump: 
+[2025-12-14 19:55:11] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-14 19:55:11] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-14 19:55:12] [PLAYER] Jump: 
+[2025-12-14 19:55:13] [PLAYER] Jump: 
+[2025-12-14 19:55:14] [OBSERVER] Event: Coin collected - Data: 10
+[2025-12-14 19:55:15] [PLAYER] Jump: 
+[2025-12-14 19:55:15] [DECORATOR] Star applied to Player
+[2025-12-14 19:55:15] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 19:55:15] [DECORATOR] Star applied to Player
+[2025-12-14 19:55:15] [OBSERVER] Event: Score - Data: 1700
+[2025-12-14 19:55:16] [PLAYER] Jump: 
+[2025-12-14 19:55:17] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 19:55:17] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 19:55:17] [OBSERVER] Event: New leaderboard entry - Data: Guest: 1700
+[2025-12-14 19:55:17] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 19:55:18] [LEVEL] Advanced to: World 1-2: Underground
+[2025-12-14 19:55:18] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:55:18] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 19:55:18] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 19:55:18] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:55:18] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 19:55:18] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 19:55:18] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 19:55:23] [PLAYER] Jump: 
+[2025-12-14 19:55:24] [PLAYER] Death: Took damage
+[2025-12-14 19:55:24] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 19:55:24] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 19:55:24] [OBSERVER] Event: Score - Data: 1800
+[2025-12-14 19:55:24] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:55:25] [PLAYER] Jump: 
+[2025-12-14 19:55:26] [PLAYER] Jump: 
+[2025-12-14 19:55:27] [PLAYER] Jump: 
+[2025-12-14 19:55:28] [PLAYER] Jump: 
+[2025-12-14 19:55:30] [PLAYER] Jump: 
+[2025-12-14 19:55:32] [PLAYER] Jump: 
+[2025-12-14 19:55:33] [OBSERVER] Event: Coin collected - Data: 11
+[2025-12-14 19:55:33] [OBSERVER] Event: Coin collected - Data: 12
+[2025-12-14 19:55:33] [OBSERVER] Event: Coin collected - Data: 13
+[2025-12-14 19:55:34] [OBSERVER] Event: Coin collected - Data: 14
+[2025-12-14 19:55:34] [PLAYER] Jump: 
+[2025-12-14 19:55:34] [OBSERVER] Event: Coin collected - Data: 15
+[2025-12-14 19:55:36] [PLAYER] Death: Fell off map
+[2025-12-14 19:55:36] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 19:55:36] [PLAYER] Game Over: No lives remaining
+[2025-12-14 19:55:36] [OBSERVER] Event: New leaderboard entry - Data: Guest: 2300
+[2025-12-14 19:55:36] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 19:55:46] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 19:55:46] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:55:46] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:55:46] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:55:46] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:55:46] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:55:46] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:55:46] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:55:46] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:55:46] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:55:46] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:55:46] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:55:46] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:55:46] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:55:46] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:55:46] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:55:46] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:55:46] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:55:46] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 19:55:47] [PLAYER] Jump: 
+[2025-12-14 19:55:48] [OBSERVER] Event: Score - Data: 100
+[2025-12-14 19:55:48] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:55:48] [PLAYER] Jump: 
+[2025-12-14 19:55:50] [PLAYER] Jump: 
+[2025-12-14 19:55:50] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 19:55:50] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 19:55:51] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 19:55:51] [PLAYER] Jump: 
+[2025-12-14 19:55:52] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 19:55:52] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:55:52] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:55:52] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:55:52] [OBSERVER] Event: Score - Data: 700
+[2025-12-14 19:55:52] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 19:55:53] [PLAYER] Jump: 
+[2025-12-14 19:55:54] [PLAYER] Jump: 
+[2025-12-14 19:55:55] [PLAYER] Jump: 
+[2025-12-14 19:55:57] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 19:55:57] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 19:56:01] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 19:56:01] [LEVEL] Checkpoint activated: 
+[2025-12-14 19:56:01] [PLAYER] Jump: 
+[2025-12-14 19:56:03] [PLAYER] Jump: 
+[2025-12-14 19:56:03] [OBSERVER] Event: Score - Data: 1100
+[2025-12-14 19:56:03] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:56:03] [PLAYER] Jump: 
+[2025-12-14 19:56:05] [PLAYER] Jump: 
+[2025-12-14 19:56:05] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:56:05] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 19:56:05] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:56:05] [OBSERVER] Event: Score - Data: 1300
+[2025-12-14 19:56:06] [PLAYER] Jump: 
+[2025-12-14 19:56:07] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-14 19:56:07] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-14 19:56:07] [OBSERVER] Event: Coin collected - Data: 10
+[2025-12-14 19:56:07] [PLAYER] Jump: 
+[2025-12-14 19:56:09] [DECORATOR] Star applied to Player
+[2025-12-14 19:56:09] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 19:56:09] [DECORATOR] Star applied to Player
+[2025-12-14 19:56:09] [OBSERVER] Event: Score - Data: 1800
+[2025-12-14 19:56:09] [PLAYER] Jump: 
+[2025-12-14 19:56:14] [PLAYER] Jump: 
+[2025-12-14 19:56:18] [PLAYER] Jump: 
+[2025-12-14 19:56:19] [DECORATOR] Star removed from Player
+[2025-12-14 19:56:21] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 19:56:21] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 19:56:21] [OBSERVER] Event: New leaderboard entry - Data: Guest: 1800
+[2025-12-14 19:56:21] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 19:56:23] [LEVEL] Advanced to: World 1-2: Underground
+[2025-12-14 19:56:23] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:56:23] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 19:56:23] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 19:56:23] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:56:23] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 19:56:23] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 19:56:23] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 19:56:27] [PLAYER] Jump: 
+[2025-12-14 19:56:28] [OBSERVER] Event: Score - Data: 1900
+[2025-12-14 19:56:28] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:56:28] [PLAYER] Jump: 
+[2025-12-14 19:56:29] [PLAYER] Jump: 
+[2025-12-14 19:56:29] [PLAYER] Jump: 
+[2025-12-14 19:56:30] [PLAYER] Jump: 
+[2025-12-14 19:56:32] [PLAYER] Jump: 
+[2025-12-14 19:56:33] [OBSERVER] Event: Coin collected - Data: 11
+[2025-12-14 19:56:33] [OBSERVER] Event: Coin collected - Data: 12
+[2025-12-14 19:56:33] [OBSERVER] Event: Coin collected - Data: 13
+[2025-12-14 19:56:33] [OBSERVER] Event: Coin collected - Data: 14
+[2025-12-14 19:56:34] [OBSERVER] Event: Coin collected - Data: 15
+[2025-12-14 19:56:34] [PLAYER] Jump: 
+[2025-12-14 19:56:36] [OBSERVER] Event: Score - Data: 2500
+[2025-12-14 19:56:36] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:56:37] [PLAYER] Death: Fell off map
+[2025-12-14 19:56:37] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 19:56:37] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 19:56:37] [PLAYER] Jump: 
+[2025-12-14 19:56:39] [PLAYER] Jump: 
+[2025-12-14 19:56:40] [PLAYER] Death: Took damage
+[2025-12-14 19:56:40] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 19:56:40] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 19:56:41] [PLAYER] Jump: 
+[2025-12-14 19:56:43] [PLAYER] Jump: 
+[2025-12-14 19:56:44] [PLAYER] Jump: 
+[2025-12-14 19:56:47] [PLAYER] Jump: 
+[2025-12-14 19:56:48] [PLAYER] Jump: 
+[2025-12-14 19:56:50] [PLAYER] Jump: 
+[2025-12-14 19:56:50] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:56:50] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:56:50] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:56:50] [OBSERVER] Event: Score - Data: 2700
+[2025-12-14 19:56:51] [PLAYER] Jump: 
+[2025-12-14 19:56:56] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 19:56:56] [LEVEL] Checkpoint activated: 
+[2025-12-14 19:56:56] [PLAYER] Jump: 
+[2025-12-14 19:56:59] [PLAYER] Jump: 
+[2025-12-14 19:57:00] [DECORATOR] SpeedBoost applied to Player
+[2025-12-14 19:57:00] [FACTORY] PowerUpFactory created: SPEED_BOOST
+[2025-12-14 19:57:00] [DECORATOR] SpeedBoost applied to Player
+[2025-12-14 19:57:00] [OBSERVER] Event: Score - Data: 2900
+[2025-12-14 19:57:01] [PLAYER] Jump: 
+[2025-12-14 19:57:01] [OBSERVER] Event: Coin collected - Data: 16
+[2025-12-14 19:57:01] [OBSERVER] Event: Coin collected - Data: 17
+[2025-12-14 19:57:02] [OBSERVER] Event: Coin collected - Data: 18
+[2025-12-14 19:57:02] [OBSERVER] Event: Coin collected - Data: 19
+[2025-12-14 19:57:05] [PLAYER] Jump: 
+[2025-12-14 19:57:08] [DECORATOR] SpeedBoost removed from Player
+[2025-12-14 19:57:08] [PLAYER] Jump: 
+[2025-12-14 19:57:12] [PLAYER] Jump: 
+[2025-12-14 19:57:12] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 19:57:12] [LEVEL] Completed: World 1-2: Underground
+[2025-12-14 19:57:12] [OBSERVER] Event: New leaderboard entry - Data: Guest: 3300
+[2025-12-14 19:57:12] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 19:57:13] [LEVEL] Advanced to: World 1-3: Castle
+[2025-12-14 19:57:13] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:57:13] [LEVEL] Started: World 1-3: Castle
+[2025-12-14 19:57:13] [OBSERVER] Event: Notification - Data: Level 3 Start!
+[2025-12-14 19:57:13] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:57:13] [LEVEL] Started: World 1-3: Castle
+[2025-12-14 19:57:13] [OBSERVER] Event: Notification - Data: Level 3 Start!
+[2025-12-14 19:57:13] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 19:57:15] [PLAYER] Jump: 
+[2025-12-14 19:57:16] [PLAYER] Jump: 
+[2025-12-14 19:57:17] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:57:17] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:57:17] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:57:17] [OBSERVER] Event: Score - Data: 3500
+[2025-12-14 19:57:18] [PLAYER] Jump: 
+[2025-12-14 19:57:19] [OBSERVER] Event: Coin collected - Data: 20
+[2025-12-14 19:57:19] [OBSERVER] Event: Coin collected - Data: 21
+[2025-12-14 19:57:19] [OBSERVER] Event: Coin collected - Data: 22
+[2025-12-14 19:57:20] [PLAYER] Jump: 
+[2025-12-14 19:57:21] [PLAYER] Jump: 
+[2025-12-14 19:57:22] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:57:22] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 19:57:22] [DECORATOR] FireFlower applied to Player
+[2025-12-14 19:57:22] [OBSERVER] Event: Score - Data: 4000
+[2025-12-14 19:57:23] [PLAYER] Jump: 
+[2025-12-14 19:57:25] [PLAYER] Jump: 
+[2025-12-14 19:57:31] [PLAYER] Jump: 
+[2025-12-14 19:57:32] [PLAYER] Jump: 
+[2025-12-14 19:57:35] [PLAYER] Jump: 
+[2025-12-14 19:57:36] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 19:57:36] [LEVEL] Checkpoint activated: 
+[2025-12-14 19:57:37] [DECORATOR] Star applied to Player
+[2025-12-14 19:57:37] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 19:57:37] [DECORATOR] Star applied to Player
+[2025-12-14 19:57:37] [OBSERVER] Event: Score - Data: 4200
+[2025-12-14 19:57:38] [PLAYER] Jump: 
+[2025-12-14 19:57:47] [DECORATOR] Star removed from Player
+[2025-12-14 19:58:17] [PLAYER] Jump: 
+[2025-12-14 19:58:18] [PLAYER] Jump: 
+[2025-12-14 19:58:18] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 19:58:18] [LEVEL] Completed: World 1-3: Castle
+[2025-12-14 19:58:18] [OBSERVER] Event: New leaderboard entry - Data: Guest: 4200
+[2025-12-14 19:58:18] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 19:58:21] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 19:58:21] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:58:21] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:58:21] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:58:21] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:58:21] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:58:21] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:58:21] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:58:21] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:58:21] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:58:21] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:58:21] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:58:21] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:58:21] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:58:21] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:58:21] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:58:21] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:58:21] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:58:21] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 19:58:24] [STATE] Game: PLAYING → PAUSED
+[2025-12-14 19:58:27] [STATE] Game: PAUSED → MENU
+[2025-12-14 19:58:32] [STATE] Game: MENU → LEADERBOARD
+[2025-12-14 19:58:37] [STATE] Game: LEADERBOARD → MENU
+[2025-12-14 19:58:41] [AUTH] Logout: Guest
+[2025-12-14 19:58:41] [STATE] Game: MENU → LOGIN
+[2025-12-14 19:58:48] [AUTH] Login failed: ahmed
+[2025-12-14 19:58:55] [AUTH] Registration failed - user exists: ahmed
+[2025-12-14 19:59:14] [AUTH] Registered: AHMEEED
+[2025-12-14 19:59:14] [AUTH] Login successful: AHMEEED
+[2025-12-14 19:59:14] [STATE] Game: LOGIN → MENU
+[2025-12-14 19:59:15] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 19:59:15] [LEVEL] World created: Super Mario World 1
+[2025-12-14 19:59:15] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:59:15] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 19:59:15] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 19:59:15] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:59:15] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 19:59:15] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 19:59:15] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 19:59:15] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 19:59:15] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 19:59:15] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 19:59:15] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:59:15] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:59:15] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:59:15] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 19:59:15] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 19:59:15] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 19:59:15] [STATE] Game: MENU → PLAYING
+[2025-12-14 19:59:17] [PLAYER] Jump: 
+[2025-12-14 19:59:18] [PLAYER] Death: Took damage
+[2025-12-14 19:59:18] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 19:59:18] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 19:59:18] [PLAYER] Jump: 
+[2025-12-14 19:59:19] [OBSERVER] Event: Score - Data: 100
+[2025-12-14 19:59:19] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:59:19] [PLAYER] Jump: 
+[2025-12-14 19:59:20] [PLAYER] Jump: 
+[2025-12-14 19:59:20] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 19:59:20] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 19:59:21] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 19:59:21] [PLAYER] Jump: 
+[2025-12-14 19:59:22] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 19:59:22] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:59:22] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 19:59:22] [DECORATOR] Mushroom applied to Player
+[2025-12-14 19:59:22] [OBSERVER] Event: Score - Data: 700
+[2025-12-14 19:59:22] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 19:59:22] [PLAYER] Jump: 
+[2025-12-14 19:59:23] [PLAYER] Jump: 
+[2025-12-14 19:59:26] [PLAYER] Jump: 
+[2025-12-14 19:59:26] [PLAYER] Lost power-ups: 
+[2025-12-14 19:59:26] [PLAYER] Death: Took damage
+[2025-12-14 19:59:26] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 19:59:26] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 19:59:27] [PLAYER] Jump: 
+[2025-12-14 19:59:28] [PLAYER] Jump: 
+[2025-12-14 19:59:29] [PLAYER] Jump: 
+[2025-12-14 19:59:30] [PLAYER] Jump: 
+[2025-12-14 19:59:31] [OBSERVER] Event: Score - Data: 900
+[2025-12-14 19:59:31] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 19:59:32] [PLAYER] Jump: 
+[2025-12-14 19:59:33] [PLAYER] Jump: 
+[2025-12-14 19:59:34] [PLAYER] Jump: 
+[2025-12-14 19:59:35] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 19:59:35] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 20:00:11] [PLAYER] Jump: 
+[2025-12-14 20:00:12] [PLAYER] Jump: 
+[2025-12-14 20:00:14] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 20:00:14] [LEVEL] Checkpoint activated: 
+[2025-12-14 20:00:14] [PLAYER] Jump: 
+[2025-12-14 20:00:15] [PLAYER] Jump: 
+[2025-12-14 20:00:16] [PLAYER] Jump: 
+[2025-12-14 20:00:18] [PLAYER] Jump: 
+[2025-12-14 20:00:19] [PLAYER] Jump: 
+[2025-12-14 20:00:22] [PLAYER] Jump: 
+[2025-12-14 20:00:23] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:00:23] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 20:00:23] [OBSERVER] Event: New leaderboard entry - Data: AHMEEED: 1100
+[2025-12-14 20:00:23] [AUTH] New high score: AHMEEED: 1100
+[2025-12-14 20:00:23] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:00:25] [STATE] Game: VICTORY → MENU
+[2025-12-14 20:00:27] [STATE] Game: MENU → LEADERBOARD
+[2025-12-14 20:00:32] [STATE] Game: LEADERBOARD → MENU
+[2025-12-14 20:01:47] [] Starting Super Mario Game...
+[2025-12-14 20:01:47] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-14 20:01:47] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:01:47] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:01:47] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:01:47] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:01:47] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:01:47] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:01:47] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:01:47] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:01:47] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:01:47] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:01:47] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:01:47] [] GameEngine initialized
+[2025-12-14 20:01:47] [STATE] Game: LOGIN → LOGIN
+[2025-12-14 20:01:47] [] Game loop started
+[2025-12-14 20:02:17] [] Loaded 2 users
+[2025-12-14 20:02:17] [AUTH] Login successful: ahmed
+[2025-12-14 20:02:17] [STATE] Game: LOGIN → MENU
+[2025-12-14 20:02:19] [STATE] Game: MENU → SETTINGS
+[2025-12-14 20:02:31] [STATE] Game: SETTINGS → MENU
+[2025-12-14 20:02:32] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 20:02:32] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:02:32] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:02:32] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:02:32] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:02:32] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:02:32] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:02:32] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:02:32] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:02:32] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:02:32] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:02:32] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:02:32] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:02:32] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:02:32] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:02:32] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:02:32] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:02:32] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:02:32] [STATE] Game: MENU → PLAYING
+[2025-12-14 20:02:34] [PLAYER] Jump: 
+[2025-12-14 20:02:35] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 20:02:35] [PLAYER] Jump: 
+[2025-12-14 20:02:36] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 20:02:36] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:02:36] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:02:36] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:02:36] [OBSERVER] Event: Score - Data: 400
+[2025-12-14 20:02:36] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 20:02:36] [PLAYER] Jump: 
+[2025-12-14 20:02:37] [PLAYER] Jump: 
+[2025-12-14 20:02:39] [PLAYER] Lost power-ups: 
+[2025-12-14 20:02:39] [PLAYER] Death: Took damage
+[2025-12-14 20:02:39] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 20:02:39] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 20:02:39] [OBSERVER] Event: Score - Data: 600
+[2025-12-14 20:02:39] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:02:39] [PLAYER] Jump: 
+[2025-12-14 20:02:40] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 20:02:40] [PLAYER] Jump: 
+[2025-12-14 20:02:40] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 20:02:41] [PLAYER] Jump: 
+[2025-12-14 20:02:43] [PLAYER] Jump: 
+[2025-12-14 20:02:44] [PLAYER] Jump: 
+[2025-12-14 20:02:44] [PLAYER] Jump: 
+[2025-12-14 20:02:46] [PLAYER] Jump: 
+[2025-12-14 20:02:46] [PLAYER] Death: Took damage
+[2025-12-14 20:02:46] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 20:02:46] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 20:02:47] [PLAYER] Jump: 
+[2025-12-14 20:02:48] [PLAYER] Jump: 
+[2025-12-14 20:02:49] [PLAYER] Jump: 
+[2025-12-14 20:02:50] [PLAYER] Jump: 
+[2025-12-14 20:02:51] [PLAYER] Jump: 
+[2025-12-14 20:02:53] [PLAYER] Jump: 
+[2025-12-14 20:02:55] [PLAYER] Jump: 
+[2025-12-14 20:02:55] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:02:55] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 20:02:55] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:02:55] [OBSERVER] Event: Score - Data: 1000
+[2025-12-14 20:02:55] [PLAYER] Jump: 
+[2025-12-14 20:02:57] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 20:02:57] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 20:02:57] [PLAYER] Jump: 
+[2025-12-14 20:02:58] [DECORATOR] Star applied to Player
+[2025-12-14 20:02:58] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 20:02:58] [DECORATOR] Star applied to Player
+[2025-12-14 20:02:58] [OBSERVER] Event: Score - Data: 1400
+[2025-12-14 20:02:59] [PLAYER] Jump: 
+[2025-12-14 20:03:00] [PLAYER] Jump: 
+[2025-12-14 20:03:01] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:03:01] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 20:03:01] [] Loaded 9 leaderboard entries
+[2025-12-14 20:03:01] [OBSERVER] Event: New leaderboard entry - Data: ahmed: 1400
+[2025-12-14 20:03:01] [AUTH] New high score: ahmed: 1400
+[2025-12-14 20:03:01] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:03:03] [STATE] Game: VICTORY → MENU
+[2025-12-14 20:03:04] [STATE] Game: MENU → LEADERBOARD
+[2025-12-14 20:03:07] [STATE] Game: LEADERBOARD → MENU
+[2025-12-14 20:03:11] [STATE] Game: MENU → LEADERBOARD
+[2025-12-14 20:03:14] [STATE] Game: LEADERBOARD → MENU
+[2025-12-14 20:23:59] [] Starting Super Mario Game...
+[2025-12-14 20:23:59] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-14 20:23:59] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:23:59] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:23:59] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:23:59] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:23:59] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:23:59] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:23:59] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:23:59] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:23:59] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:23:59] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:23:59] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:23:59] [] GameEngine initialized
+[2025-12-14 20:23:59] [STATE] Game: LOGIN → LOGIN
+[2025-12-14 20:23:59] [] Game loop started
+[2025-12-14 20:24:02] [] Loaded 2 users
+[2025-12-14 20:24:02] [AUTH] Guest login: Guest
+[2025-12-14 20:24:02] [STATE] Game: LOGIN → MENU
+[2025-12-14 20:24:51] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 20:24:51] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:24:51] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:24:51] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:24:51] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:24:51] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:24:51] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:24:51] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:24:51] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:24:51] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:24:51] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:24:51] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:24:51] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:24:51] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:24:51] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:24:51] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:24:51] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:24:51] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:24:51] [STATE] Game: MENU → PLAYING
+[2025-12-14 20:24:54] [PLAYER] Jump: 
+[2025-12-14 20:24:54] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 20:24:55] [OBSERVER] Event: Score - Data: 200
+[2025-12-14 20:24:55] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:24:55] [PLAYER] Double Jump: 
+[2025-12-14 20:24:57] [PLAYER] Jump: 
+[2025-12-14 20:24:57] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 20:24:58] [PLAYER] Jump: 
+[2025-12-14 20:24:58] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 20:24:58] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 20:24:58] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 20:24:58] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:24:58] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:24:58] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:24:58] [OBSERVER] Event: Score - Data: 800
+[2025-12-14 20:24:59] [PLAYER] Jump: 
+[2025-12-14 20:25:00] [PLAYER] Jump: 
+[2025-12-14 20:25:01] [PLAYER] Double Jump: 
+[2025-12-14 20:25:02] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 20:25:03] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 20:25:05] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 20:25:05] [LEVEL] Checkpoint activated: 
+[2025-12-14 20:25:05] [PLAYER] Jump: 
+[2025-12-14 20:25:06] [PLAYER] Double Jump: 
+[2025-12-14 20:25:07] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:25:07] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 20:25:07] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:25:07] [OBSERVER] Event: Score - Data: 1200
+[2025-12-14 20:25:07] [PLAYER] Jump: 
+[2025-12-14 20:25:08] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-14 20:25:09] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-14 20:25:09] [OBSERVER] Event: Coin collected - Data: 10
+[2025-12-14 20:25:09] [PLAYER] Jump: 
+[2025-12-14 20:25:11] [DECORATOR] Star applied to Player
+[2025-12-14 20:25:11] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 20:25:11] [DECORATOR] Star applied to Player
+[2025-12-14 20:25:11] [OBSERVER] Event: Score - Data: 1700
+[2025-12-14 20:25:11] [PLAYER] Jump: 
+[2025-12-14 20:25:12] [PLAYER] Double Jump: 
+[2025-12-14 20:25:14] [PLAYER] Jump: 
+[2025-12-14 20:25:14] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:25:14] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 20:25:14] [] Loaded 10 leaderboard entries
+[2025-12-14 20:25:14] [OBSERVER] Event: New leaderboard entry - Data: Guest: 1700
+[2025-12-14 20:25:14] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:25:16] [LEVEL] Advanced to: World 1-2: Underground
+[2025-12-14 20:25:16] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:25:16] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:25:16] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:25:16] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:25:16] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:25:16] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:25:16] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 20:25:17] [PLAYER] Jump: 
+[2025-12-14 20:25:17] [PLAYER] Double Jump: 
+[2025-12-14 20:25:18] [PLAYER] Jump: 
+[2025-12-14 20:25:19] [PLAYER] Double Jump: 
+[2025-12-14 20:25:19] [OBSERVER] Event: Coin collected - Data: 11
+[2025-12-14 20:25:19] [OBSERVER] Event: Coin collected - Data: 12
+[2025-12-14 20:25:19] [OBSERVER] Event: Coin collected - Data: 13
+[2025-12-14 20:25:20] [OBSERVER] Event: Coin collected - Data: 14
+[2025-12-14 20:25:20] [OBSERVER] Event: Coin collected - Data: 15
+[2025-12-14 20:25:20] [PLAYER] Jump: 
+[2025-12-14 20:25:21] [PLAYER] Jump: 
+[2025-12-14 20:25:22] [PLAYER] Double Jump: 
+[2025-12-14 20:25:24] [PLAYER] Jump: 
+[2025-12-14 20:25:25] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:25:25] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:25:25] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:25:25] [OBSERVER] Event: Score - Data: 2400
+[2025-12-14 20:25:25] [PLAYER] Jump: 
+[2025-12-14 20:25:27] [PLAYER] Jump: 
+[2025-12-14 20:25:28] [PLAYER] Double Jump: 
+[2025-12-14 20:25:29] [OBSERVER] Event: Coin collected - Data: 16
+[2025-12-14 20:25:29] [OBSERVER] Event: Coin collected - Data: 17
+[2025-12-14 20:25:29] [OBSERVER] Event: Coin collected - Data: 18
+[2025-12-14 20:25:29] [OBSERVER] Event: Coin collected - Data: 19
+[2025-12-14 20:25:29] [PLAYER] Jump: 
+[2025-12-14 20:25:31] [PLAYER] Jump: 
+[2025-12-14 20:25:32] [DECORATOR] SpeedBoost applied to Player
+[2025-12-14 20:25:32] [FACTORY] PowerUpFactory created: SPEED_BOOST
+[2025-12-14 20:25:32] [DECORATOR] SpeedBoost applied to Player
+[2025-12-14 20:25:32] [OBSERVER] Event: Score - Data: 3000
+[2025-12-14 20:25:32] [PLAYER] Jump: 
+[2025-12-14 20:25:33] [PLAYER] Double Jump: 
+[2025-12-14 20:25:35] [PLAYER] Jump: 
+[2025-12-14 20:25:36] [PLAYER] Jump: 
+[2025-12-14 20:25:36] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:25:36] [LEVEL] Completed: World 1-2: Underground
+[2025-12-14 20:25:36] [OBSERVER] Event: New leaderboard entry - Data: Guest: 3000
+[2025-12-14 20:25:36] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:25:37] [LEVEL] Advanced to: World 1-3: Castle
+[2025-12-14 20:25:37] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:25:37] [LEVEL] Started: World 1-3: Castle
+[2025-12-14 20:25:37] [OBSERVER] Event: Notification - Data: Level 3 Start!
+[2025-12-14 20:25:37] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:25:37] [LEVEL] Started: World 1-3: Castle
+[2025-12-14 20:25:37] [OBSERVER] Event: Notification - Data: Level 3 Start!
+[2025-12-14 20:25:37] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 20:25:38] [PLAYER] Jump: 
+[2025-12-14 20:25:39] [PLAYER] Double Jump: 
+[2025-12-14 20:25:40] [PLAYER] Jump: 
+[2025-12-14 20:25:41] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:25:41] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:25:41] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:25:41] [OBSERVER] Event: Score - Data: 3200
+[2025-12-14 20:25:41] [PLAYER] Jump: 
+[2025-12-14 20:25:42] [OBSERVER] Event: Coin collected - Data: 20
+[2025-12-14 20:25:42] [OBSERVER] Event: Coin collected - Data: 21
+[2025-12-14 20:25:42] [OBSERVER] Event: Coin collected - Data: 22
+[2025-12-14 20:25:43] [PLAYER] Jump: 
+[2025-12-14 20:25:44] [PLAYER] Jump: 
+[2025-12-14 20:25:44] [PLAYER] Double Jump: 
+[2025-12-14 20:25:45] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:25:45] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 20:25:45] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:25:45] [OBSERVER] Event: Score - Data: 3700
+[2025-12-14 20:25:46] [PLAYER] Jump: 
+[2025-12-14 20:25:47] [PLAYER] Jump: 
+[2025-12-14 20:25:48] [OBSERVER] Event: Score - Data: 4700
+[2025-12-14 20:25:48] [PLAYER] Enemy defeated: Boss
+[2025-12-14 20:25:48] [PLAYER] Double Jump: 
+[2025-12-14 20:25:48] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 20:25:48] [LEVEL] Checkpoint activated: 
+[2025-12-14 20:25:50] [PLAYER] Jump: 
+[2025-12-14 20:25:51] [PLAYER] Jump: 
+[2025-12-14 20:25:52] [DECORATOR] Star applied to Player
+[2025-12-14 20:25:52] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 20:25:52] [DECORATOR] Star applied to Player
+[2025-12-14 20:25:52] [OBSERVER] Event: Score - Data: 4900
+[2025-12-14 20:25:52] [PLAYER] Jump: 
+[2025-12-14 20:25:53] [PLAYER] Double Jump: 
+[2025-12-14 20:25:56] [PLAYER] Jump: 
+[2025-12-14 20:25:56] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:25:56] [LEVEL] Completed: World 1-3: Castle
+[2025-12-14 20:25:56] [OBSERVER] Event: New leaderboard entry - Data: Guest: 4900
+[2025-12-14 20:25:56] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:25:58] [STATE] Game: VICTORY → MENU
+[2025-12-14 20:26:01] [STATE] Game: MENU → LEADERBOARD
+[2025-12-14 20:26:05] [STATE] Game: LEADERBOARD → MENU
+[2025-12-14 20:26:06] [STATE] Game: MENU → SETTINGS
+[2025-12-14 20:26:11] [STATE] Game: SETTINGS → MENU
+[2025-12-14 20:26:13] [STATE] Game: MENU → SETTINGS
+[2025-12-14 20:26:14] [STATE] Game: SETTINGS → MENU
+[2025-12-14 20:26:17] [STATE] Game: MENU → LOGIN
+[2025-12-14 20:26:18] [AUTH] Guest login: Guest
+[2025-12-14 20:26:18] [STATE] Game: LOGIN → MENU
+[2025-12-14 20:26:27] [] Starting Super Mario Game...
+[2025-12-14 20:26:27] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-14 20:26:27] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:26:27] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:26:27] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:26:27] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:26:27] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:26:27] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:26:27] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:26:27] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:26:27] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:26:27] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:26:27] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:26:27] [] GameEngine initialized
+[2025-12-14 20:26:27] [STATE] Game: LOGIN → LOGIN
+[2025-12-14 20:26:27] [] Game loop started
+[2025-12-14 20:27:16] [] Loaded 2 users
+[2025-12-14 20:27:16] [AUTH] Guest login: Guest
+[2025-12-14 20:27:16] [STATE] Game: LOGIN → MENU
+[2025-12-14 20:27:17] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 20:27:17] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:27:17] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:17] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:27:17] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:27:17] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:17] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:27:17] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:27:17] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:17] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:27:17] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:27:17] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:27:17] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:27:17] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:27:17] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:27:17] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:27:17] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:27:17] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:27:17] [STATE] Game: MENU → PLAYING
+[2025-12-14 20:27:18] [PLAYER] Jump: 
+[2025-12-14 20:27:19] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 20:27:19] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 20:27:19] [PLAYER] Jump: 
+[2025-12-14 20:27:20] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 20:27:20] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 20:27:20] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:27:20] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:27:20] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:27:20] [OBSERVER] Event: Score - Data: 600
+[2025-12-14 20:27:21] [PLAYER] Double Jump: 
+[2025-12-14 20:27:22] [PLAYER] Jump: 
+[2025-12-14 20:27:22] [PLAYER] Double Jump: 
+[2025-12-14 20:27:23] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 20:27:23] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 20:27:24] [PLAYER] Jump: 
+[2025-12-14 20:27:24] [PLAYER] Double Jump: 
+[2025-12-14 20:27:26] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:27:26] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 20:27:26] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:27:26] [OBSERVER] Event: Score - Data: 1000
+[2025-12-14 20:27:26] [PLAYER] Jump: 
+[2025-12-14 20:27:26] [PLAYER] Double Jump: 
+[2025-12-14 20:27:27] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 20:27:27] [PLAYER] Jump: 
+[2025-12-14 20:27:27] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-14 20:27:28] [DECORATOR] Star applied to Player
+[2025-12-14 20:27:28] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 20:27:28] [DECORATOR] Star applied to Player
+[2025-12-14 20:27:28] [OBSERVER] Event: Score - Data: 1400
+[2025-12-14 20:27:29] [PLAYER] Jump: 
+[2025-12-14 20:27:29] [PLAYER] Double Jump: 
+[2025-12-14 20:27:31] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:27:31] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 20:27:31] [] Loaded 10 leaderboard entries
+[2025-12-14 20:27:31] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:27:32] [LEVEL] Advanced to: World 1-2: Underground
+[2025-12-14 20:27:32] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:27:32] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:27:32] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:27:32] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:27:32] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:27:32] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:27:32] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 20:27:34] [PLAYER] Jump: 
+[2025-12-14 20:27:35] [PLAYER] Double Jump: 
+[2025-12-14 20:27:35] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-14 20:27:36] [PLAYER] Jump: 
+[2025-12-14 20:27:37] [PLAYER] Double Jump: 
+[2025-12-14 20:27:38] [PLAYER] Jump: 
+[2025-12-14 20:27:39] [PLAYER] Death: Took damage
+[2025-12-14 20:27:39] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 20:27:39] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 20:27:39] [PLAYER] Double Jump: 
+[2025-12-14 20:27:39] [OBSERVER] Event: Coin collected - Data: 10
+[2025-12-14 20:27:40] [OBSERVER] Event: Coin collected - Data: 11
+[2025-12-14 20:27:40] [PLAYER] Jump: 
+[2025-12-14 20:27:40] [OBSERVER] Event: Coin collected - Data: 12
+[2025-12-14 20:27:41] [PLAYER] Jump: 
+[2025-12-14 20:27:42] [PLAYER] Double Jump: 
+[2025-12-14 20:27:44] [PLAYER] Jump: 
+[2025-12-14 20:27:46] [PLAYER] Jump: 
+[2025-12-14 20:27:46] [PLAYER] Double Jump: 
+[2025-12-14 20:27:46] [PLAYER] Death: Took damage
+[2025-12-14 20:27:46] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 20:27:46] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 20:27:47] [PLAYER] Jump: 
+[2025-12-14 20:27:48] [PLAYER] Double Jump: 
+[2025-12-14 20:27:48] [OBSERVER] Event: Coin collected - Data: 13
+[2025-12-14 20:27:49] [PLAYER] Death: Took damage
+[2025-12-14 20:27:49] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 20:27:49] [PLAYER] Game Over: No lives remaining
+[2025-12-14 20:27:49] [OBSERVER] Event: New leaderboard entry - Data: Guest: 1900
+[2025-12-14 20:27:49] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 20:27:50] [STATE] Game: GAME_OVER → MENU
+[2025-12-14 20:27:54] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 20:27:54] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:27:54] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:54] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:27:54] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:27:54] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:54] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:27:54] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:27:54] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:27:54] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:27:54] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:27:54] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:27:54] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:27:54] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:27:54] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:27:54] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:27:54] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:27:54] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:27:54] [STATE] Game: MENU → PLAYING
+[2025-12-14 20:28:02] [PLAYER] Death: Took damage
+[2025-12-14 20:28:02] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 20:28:02] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 20:28:02] [OBSERVER] Event: Score - Data: 100
+[2025-12-14 20:28:02] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:28:12] [PLAYER] Death: Took damage
+[2025-12-14 20:28:12] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 20:28:12] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 20:28:12] [OBSERVER] Event: Score - Data: 200
+[2025-12-14 20:28:12] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:28:31] [PLAYER] Death: Took damage
+[2025-12-14 20:28:31] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 20:28:31] [PLAYER] Game Over: No lives remaining
+[2025-12-14 20:28:31] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 20:29:22] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 20:29:22] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:29:22] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:29:22] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:29:22] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:29:22] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:29:22] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:29:22] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:29:22] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:29:22] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:29:22] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:29:22] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:29:22] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:29:22] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:29:22] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:29:22] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:29:22] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:29:22] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:29:22] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 20:37:20] [] Starting Super Mario Game...
+[2025-12-14 20:37:20] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-14 20:37:20] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:37:20] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:20] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:37:20] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:37:20] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:20] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:37:20] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:37:20] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:20] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:37:20] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:37:20] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:37:20] [] GameEngine initialized
+[2025-12-14 20:37:20] [STATE] Game: LOGIN → LOGIN
+[2025-12-14 20:37:20] [] Game loop started
+[2025-12-14 20:37:22] [] Loaded 2 users
+[2025-12-14 20:37:22] [AUTH] Guest login: Guest
+[2025-12-14 20:37:22] [STATE] Game: LOGIN → MENU
+[2025-12-14 20:37:23] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 20:37:23] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:37:23] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:23] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:37:23] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:37:23] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:23] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:37:23] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:37:23] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:23] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:37:23] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:37:23] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:37:23] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:37:23] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:37:23] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:37:23] [] SoundManager initialized (sounds simulated)
+[2025-12-14 20:37:23] [SOUND] SFX: menu_select
+[2025-12-14 20:37:23] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:37:23] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:37:23] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:37:23] [SOUND] SFX: menu_select
+[2025-12-14 20:37:23] [STATE] Game: MENU → PLAYING
+[2025-12-14 20:37:25] [SOUND] SFX: jump
+[2025-12-14 20:37:25] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 20:37:25] [SOUND] SFX: coin
+[2025-12-14 20:37:26] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 20:37:26] [SOUND] SFX: coin
+[2025-12-14 20:37:26] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 20:37:26] [SOUND] SFX: coin
+[2025-12-14 20:37:26] [SOUND] SFX: jump
+[2025-12-14 20:37:27] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 20:37:27] [SOUND] SFX: coin
+[2025-12-14 20:37:27] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:37:27] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:37:27] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:37:27] [OBSERVER] Event: Score - Data: 600
+[2025-12-14 20:37:27] [SOUND] SFX: powerup
+[2025-12-14 20:37:27] [SOUND] SFX: powerup
+[2025-12-14 20:37:27] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 20:37:27] [SOUND] SFX: coin
+[2025-12-14 20:37:27] [SOUND] SFX: jump
+[2025-12-14 20:37:28] [SOUND] SFX: jump
+[2025-12-14 20:37:30] [SOUND] SFX: powerup
+[2025-12-14 20:37:30] [PLAYER] Lost power-ups: 
+[2025-12-14 20:37:30] [SOUND] SFX: death
+[2025-12-14 20:37:30] [PLAYER] Death: Took damage
+[2025-12-14 20:37:30] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 20:37:30] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 20:37:30] [SOUND] SFX: jump
+[2025-12-14 20:37:30] [SOUND] SFX: death
+[2025-12-14 20:37:30] [PLAYER] Death: Took damage
+[2025-12-14 20:37:30] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 20:37:30] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 20:37:30] [OBSERVER] Event: Score - Data: 800
+[2025-12-14 20:37:30] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:37:31] [SOUND] SFX: jump
+[2025-12-14 20:37:32] [SOUND] SFX: jump
+[2025-12-14 20:37:33] [SOUND] SFX: jump
+[2025-12-14 20:37:34] [SOUND] SFX: jump
+[2025-12-14 20:37:36] [SOUND] SFX: jump
+[2025-12-14 20:37:37] [SOUND] SFX: jump
+[2025-12-14 20:37:38] [SOUND] SFX: jump
+[2025-12-14 20:37:39] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 20:37:39] [SOUND] SFX: coin
+[2025-12-14 20:37:39] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 20:37:39] [SOUND] SFX: coin
+[2025-12-14 20:37:41] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 20:37:41] [LEVEL] Checkpoint activated: 
+[2025-12-14 20:37:42] [PLAYER] Death: Fell off map
+[2025-12-14 20:37:42] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 20:37:42] [PLAYER] Game Over: No lives remaining
+[2025-12-14 20:37:42] [] Loaded 10 leaderboard entries
+[2025-12-14 20:37:42] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 20:37:43] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 20:37:43] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:37:43] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:43] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:37:43] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:37:43] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:43] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:37:43] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:37:43] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:37:43] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:37:43] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:37:43] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:37:43] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:37:43] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:37:43] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:37:43] [SOUND] SFX: menu_select
+[2025-12-14 20:37:43] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:37:43] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:37:43] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:37:43] [SOUND] SFX: menu_select
+[2025-12-14 20:37:43] [STATE] Game: GAME_OVER → PLAYING
+[2025-12-14 20:37:44] [SOUND] SFX: jump
+[2025-12-14 20:37:45] [SOUND] SFX: jump
+[2025-12-14 20:37:46] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 20:37:46] [SOUND] SFX: coin
+[2025-12-14 20:37:46] [SOUND] SFX: jump
+[2025-12-14 20:37:46] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 20:37:46] [SOUND] SFX: coin
+[2025-12-14 20:37:47] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 20:37:47] [SOUND] SFX: coin
+[2025-12-14 20:37:48] [SOUND] SFX: jump
+[2025-12-14 20:37:49] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 20:37:49] [SOUND] SFX: coin
+[2025-12-14 20:37:49] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:37:49] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:37:49] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:37:49] [OBSERVER] Event: Score - Data: 600
+[2025-12-14 20:37:49] [SOUND] SFX: powerup
+[2025-12-14 20:37:49] [SOUND] SFX: powerup
+[2025-12-14 20:37:49] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 20:37:49] [SOUND] SFX: coin
+[2025-12-14 20:37:49] [SOUND] SFX: jump
+[2025-12-14 20:37:50] [SOUND] SFX: jump
+[2025-12-14 20:37:52] [SOUND] SFX: jump
+[2025-12-14 20:37:52] [SOUND] SFX: jump
+[2025-12-14 20:37:53] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 20:37:53] [SOUND] SFX: coin
+[2025-12-14 20:37:54] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 20:37:54] [SOUND] SFX: coin
+[2025-12-14 20:37:54] [SOUND] SFX: jump
+[2025-12-14 20:37:57] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 20:37:57] [LEVEL] Checkpoint activated: 
+[2025-12-14 20:37:57] [PLAYER] Death: Fell off map
+[2025-12-14 20:37:57] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 20:37:57] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 20:37:58] [SOUND] SFX: jump
+[2025-12-14 20:37:59] [SOUND] SFX: jump
+[2025-12-14 20:38:00] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:38:00] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 20:38:00] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:38:00] [OBSERVER] Event: Score - Data: 1100
+[2025-12-14 20:38:00] [SOUND] SFX: powerup
+[2025-12-14 20:38:00] [SOUND] SFX: powerup
+[2025-12-14 20:38:00] [SOUND] SFX: jump
+[2025-12-14 20:38:00] [SOUND] SFX: jump
+[2025-12-14 20:38:02] [SOUND] SFX: jump
+[2025-12-14 20:38:03] [SOUND] SFX: jump
+[2025-12-14 20:38:04] [SOUND] SFX: jump
+[2025-12-14 20:38:05] [SOUND] SFX: jump
+[2025-12-14 20:38:06] [SOUND] SFX: jump
+[2025-12-14 20:38:07] [SOUND] SFX: jump
+[2025-12-14 20:38:08] [SOUND] SFX: jump
+[2025-12-14 20:38:09] [SOUND] SFX: jump
+[2025-12-14 20:38:11] [SOUND] SFX: jump
+[2025-12-14 20:38:12] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-14 20:38:12] [SOUND] SFX: coin
+[2025-12-14 20:38:12] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-14 20:38:12] [SOUND] SFX: coin
+[2025-12-14 20:38:12] [SOUND] SFX: jump
+[2025-12-14 20:38:12] [OBSERVER] Event: Coin collected - Data: 10
+[2025-12-14 20:38:12] [SOUND] SFX: coin
+[2025-12-14 20:38:14] [DECORATOR] Star applied to Player
+[2025-12-14 20:38:14] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 20:38:14] [DECORATOR] Star applied to Player
+[2025-12-14 20:38:14] [OBSERVER] Event: Score - Data: 1600
+[2025-12-14 20:38:14] [SOUND] SFX: powerup
+[2025-12-14 20:38:14] [SOUND] SFX: powerup
+[2025-12-14 20:38:14] [SOUND] SFX: jump
+[2025-12-14 20:38:14] [SOUND] SFX: jump
+[2025-12-14 20:38:18] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:38:18] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 20:38:18] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:38:19] [LEVEL] Advanced to: World 1-2: Underground
+[2025-12-14 20:38:19] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:38:19] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:38:19] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:38:19] [SOUND] SFX: menu_select
+[2025-12-14 20:38:19] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:38:19] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:38:19] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:38:19] [SOUND] SFX: menu_select
+[2025-12-14 20:38:19] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 20:38:21] [SOUND] SFX: jump
+[2025-12-14 20:38:22] [SOUND] SFX: jump
+[2025-12-14 20:38:22] [OBSERVER] Event: Coin collected - Data: 11
+[2025-12-14 20:38:22] [SOUND] SFX: coin
+[2025-12-14 20:38:23] [OBSERVER] Event: Coin collected - Data: 12
+[2025-12-14 20:38:23] [SOUND] SFX: coin
+[2025-12-14 20:38:23] [OBSERVER] Event: Coin collected - Data: 13
+[2025-12-14 20:38:23] [SOUND] SFX: coin
+[2025-12-14 20:38:23] [OBSERVER] Event: Coin collected - Data: 14
+[2025-12-14 20:38:23] [SOUND] SFX: coin
+[2025-12-14 20:38:24] [OBSERVER] Event: Coin collected - Data: 15
+[2025-12-14 20:38:24] [SOUND] SFX: coin
+[2025-12-14 20:38:25] [STATE] Game: PLAYING → PAUSED
+[2025-12-14 20:38:31] [STATE] Game: PAUSED → MENU
+[2025-12-14 20:38:33] [STATE] Game: MENU → SETTINGS
+[2025-12-14 20:38:36] [STATE] Game: SETTINGS → MENU
+[2025-12-14 20:38:39] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:38:39] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:38:39] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:38:39] [SOUND] SFX: menu_select
+[2025-12-14 20:38:39] [STATE] Game: MENU → PLAYING
+[2025-12-14 20:38:40] [SOUND] SFX: death
+[2025-12-14 20:38:40] [PLAYER] Death: Took damage
+[2025-12-14 20:38:40] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 20:38:40] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 20:38:40] [OBSERVER] Event: Score - Data: 2200
+[2025-12-14 20:38:40] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:38:41] [SOUND] SFX: jump
+[2025-12-14 20:38:42] [SOUND] SFX: jump
+[2025-12-14 20:38:43] [SOUND] SFX: jump
+[2025-12-14 20:38:44] [OBSERVER] Event: Score - Data: 2300
+[2025-12-14 20:38:44] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:38:44] [SOUND] SFX: jump
+[2025-12-14 20:38:47] [SOUND] SFX: jump
+[2025-12-14 20:38:48] [SOUND] SFX: jump
+[2025-12-14 20:38:50] [SOUND] SFX: jump
+[2025-12-14 20:38:50] [SOUND] SFX: jump
+[2025-12-14 20:38:51] [OBSERVER] Event: Coin collected - Data: 16
+[2025-12-14 20:38:51] [SOUND] SFX: coin
+[2025-12-14 20:38:51] [OBSERVER] Event: Coin collected - Data: 17
+[2025-12-14 20:38:51] [SOUND] SFX: coin
+[2025-12-14 20:38:51] [OBSERVER] Event: Coin collected - Data: 18
+[2025-12-14 20:38:51] [SOUND] SFX: coin
+[2025-12-14 20:38:52] [STATE] Game: PLAYING → PAUSED
+[2025-12-14 20:38:52] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:38:52] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:38:52] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:38:52] [SOUND] SFX: menu_select
+[2025-12-14 20:38:52] [STATE] Game: PAUSED → PLAYING
+[2025-12-14 20:38:52] [STATE] Game: PLAYING → PAUSED
+[2025-12-14 20:38:54] [STATE] Game: PAUSED → MENU
+[2025-12-14 20:43:35] [] Starting Super Mario Game...
+[2025-12-14 20:43:35] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-14 20:43:35] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:43:35] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:35] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:43:35] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:43:35] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:35] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:43:35] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:43:35] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:35] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:43:35] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:43:35] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:43:35] [] GameEngine initialized
+[2025-12-14 20:43:35] [STATE] Game: LOGIN → LOGIN
+[2025-12-14 20:43:35] [] Game loop started
+[2025-12-14 20:43:37] [] Loaded 2 users
+[2025-12-14 20:43:37] [AUTH] Guest login: Guest
+[2025-12-14 20:43:37] [STATE] Game: LOGIN → MENU
+[2025-12-14 20:43:41] [AUTH] Logout: Guest
+[2025-12-14 20:43:41] [STATE] Game: MENU → LOGIN
+[2025-12-14 20:43:42] [AUTH] Guest login: Guest
+[2025-12-14 20:43:42] [STATE] Game: LOGIN → MENU
+[2025-12-14 20:43:44] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 20:43:44] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:43:44] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:44] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:43:44] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:43:44] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:44] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:43:44] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:43:44] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:43:44] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:43:44] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:43:44] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:43:44] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:43:44] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:43:44] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:43:45] [] SoundManager initialized
+[2025-12-14 20:43:45] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:43:45] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:43:45] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:43:45] [STATE] Game: MENU → PLAYING
+[2025-12-14 20:43:47] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 20:43:47] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 20:43:48] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 20:43:49] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 20:43:49] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:43:49] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:43:49] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:43:49] [OBSERVER] Event: Score - Data: 600
+[2025-12-14 20:43:49] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 20:43:53] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 20:43:53] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 20:43:56] [OBSERVER] Event: Score - Data: 1000
+[2025-12-14 20:43:56] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:44:00] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 20:44:00] [LEVEL] Checkpoint activated: 
+[2025-12-14 20:44:03] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:44:03] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 20:44:03] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:44:03] [OBSERVER] Event: Score - Data: 1200
+[2025-12-14 20:44:05] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-14 20:44:05] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-14 20:44:05] [OBSERVER] Event: Coin collected - Data: 10
+[2025-12-14 20:44:08] [DECORATOR] Star applied to Player
+[2025-12-14 20:44:08] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 20:44:08] [DECORATOR] Star applied to Player
+[2025-12-14 20:44:08] [OBSERVER] Event: Score - Data: 1700
+[2025-12-14 20:44:11] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:44:11] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 20:44:11] [] Loaded 10 leaderboard entries
+[2025-12-14 20:44:11] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:44:13] [LEVEL] Advanced to: World 1-2: Underground
+[2025-12-14 20:44:13] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:44:13] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:44:13] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:44:13] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:44:13] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:44:13] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:44:13] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 20:44:15] [OBSERVER] Event: Coin collected - Data: 11
+[2025-12-14 20:44:15] [OBSERVER] Event: Coin collected - Data: 12
+[2025-12-14 20:44:15] [OBSERVER] Event: Coin collected - Data: 13
+[2025-12-14 20:44:16] [OBSERVER] Event: Coin collected - Data: 14
+[2025-12-14 20:44:16] [OBSERVER] Event: Coin collected - Data: 15
+[2025-12-14 20:44:20] [OBSERVER] Event: Score - Data: 2300
+[2025-12-14 20:44:20] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:44:23] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:44:23] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:44:23] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:44:23] [OBSERVER] Event: Score - Data: 2500
+[2025-12-14 20:44:28] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 20:44:28] [LEVEL] Checkpoint activated: 
+[2025-12-14 20:44:29] [OBSERVER] Event: Coin collected - Data: 16
+[2025-12-14 20:44:30] [OBSERVER] Event: Coin collected - Data: 17
+[2025-12-14 20:44:30] [OBSERVER] Event: Coin collected - Data: 18
+[2025-12-14 20:44:30] [OBSERVER] Event: Coin collected - Data: 19
+[2025-12-14 20:44:32] [DECORATOR] SpeedBoost applied to Player
+[2025-12-14 20:44:32] [FACTORY] PowerUpFactory created: SPEED_BOOST
+[2025-12-14 20:44:32] [DECORATOR] SpeedBoost applied to Player
+[2025-12-14 20:44:32] [OBSERVER] Event: Score - Data: 3100
+[2025-12-14 20:44:37] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:44:37] [LEVEL] Completed: World 1-2: Underground
+[2025-12-14 20:44:37] [OBSERVER] Event: New leaderboard entry - Data: Guest: 3100
+[2025-12-14 20:44:37] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:44:38] [LEVEL] Advanced to: World 1-3: Castle
+[2025-12-14 20:44:38] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:44:38] [LEVEL] Started: World 1-3: Castle
+[2025-12-14 20:44:38] [OBSERVER] Event: Notification - Data: Level 3 Start!
+[2025-12-14 20:44:38] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:44:38] [LEVEL] Started: World 1-3: Castle
+[2025-12-14 20:44:38] [OBSERVER] Event: Notification - Data: Level 3 Start!
+[2025-12-14 20:44:38] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 20:44:41] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:44:41] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:44:41] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:44:41] [OBSERVER] Event: Score - Data: 3300
+[2025-12-14 20:44:43] [OBSERVER] Event: Coin collected - Data: 20
+[2025-12-14 20:44:43] [OBSERVER] Event: Coin collected - Data: 21
+[2025-12-14 20:44:44] [OBSERVER] Event: Coin collected - Data: 22
+[2025-12-14 20:44:47] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:44:47] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 20:44:47] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:44:47] [OBSERVER] Event: Score - Data: 3800
+[2025-12-14 20:44:49] [OBSERVER] Event: Score - Data: 4800
+[2025-12-14 20:44:49] [PLAYER] Enemy defeated: Boss
+[2025-12-14 20:44:50] [DECORATOR] Star applied to Player
+[2025-12-14 20:44:50] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 20:44:50] [DECORATOR] Star applied to Player
+[2025-12-14 20:44:50] [OBSERVER] Event: Score - Data: 5000
+[2025-12-14 20:44:51] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 20:44:51] [LEVEL] Checkpoint activated: 
+[2025-12-14 20:44:56] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:44:56] [LEVEL] Completed: World 1-3: Castle
+[2025-12-14 20:44:56] [OBSERVER] Event: New leaderboard entry - Data: Guest: 5000
+[2025-12-14 20:44:56] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:44:58] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 20:44:58] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:44:58] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:44:58] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:44:58] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:44:58] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:44:58] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:44:58] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:44:58] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:44:58] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:44:58] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:44:58] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:44:58] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:44:58] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:44:58] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:44:58] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:44:58] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:44:58] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:44:58] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 20:45:01] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 20:45:01] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 20:45:01] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 20:45:03] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 20:45:03] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:45:03] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:45:03] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:45:03] [OBSERVER] Event: Score - Data: 600
+[2025-12-14 20:45:03] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 20:45:06] [PLAYER] Lost power-ups: 
+[2025-12-14 20:45:06] [PLAYER] Death: Took damage
+[2025-12-14 20:45:06] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 20:45:06] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 20:45:06] [OBSERVER] Event: Score - Data: 800
+[2025-12-14 20:45:06] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:45:09] [PLAYER] Death: Took damage
+[2025-12-14 20:45:09] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 20:45:09] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 20:45:15] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 20:45:15] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 20:45:19] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-14 20:45:19] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-14 20:45:19] [OBSERVER] Event: Coin collected - Data: 10
+[2025-12-14 20:45:27] [PLAYER] Death: Fell off map
+[2025-12-14 20:45:27] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-14 20:45:27] [PLAYER] Game Over: No lives remaining
+[2025-12-14 20:45:27] [STATE] Game: PLAYING → GAME_OVER
+[2025-12-14 20:45:31] [STATE] Game: GAME_OVER → MENU
+[2025-12-14 20:45:33] [STATE] Game: MENU → LEADERBOARD
+[2025-12-14 20:45:40] [STATE] Game: LEADERBOARD → MENU
+[2025-12-14 20:52:51] [] Starting Super Mario Game...
+[2025-12-14 20:52:51] [] Loaded 2 users
+[2025-12-14 20:52:51] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-14 20:52:51] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:52:51] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:51] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:52:51] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:52:51] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:51] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:52:51] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:52:51] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:51] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:52:51] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:52:51] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:52:51] [] GameEngine initialized
+[2025-12-14 20:52:51] [STATE] Game: LOGIN → LOGIN
+[2025-12-14 20:52:51] [] Game loop started
+[2025-12-14 20:52:52] [AUTH] Guest login: Guest
+[2025-12-14 20:52:52] [STATE] Game: LOGIN → MENU
+[2025-12-14 20:52:54] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-14 20:52:54] [LEVEL] World created: Super Mario World 1
+[2025-12-14 20:52:54] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:54] [FACTORY] LevelFactory created: Level 1
+[2025-12-14 20:52:54] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-14 20:52:54] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:54] [FACTORY] LevelFactory created: Level 2
+[2025-12-14 20:52:54] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-14 20:52:54] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-14 20:52:54] [FACTORY] EnemyFactory created: BOSS
+[2025-12-14 20:52:54] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-14 20:52:54] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-14 20:52:54] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:52:54] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:52:54] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:52:54] [] SoundManager initialized
+[2025-12-14 20:52:54] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:52:54] [LEVEL] Started: World 1-1: Grassland
+[2025-12-14 20:52:54] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-14 20:52:54] [STATE] Game: MENU → PLAYING
+[2025-12-14 20:52:56] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-14 20:52:57] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-14 20:52:57] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-14 20:52:58] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-14 20:52:58] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:52:58] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-14 20:52:58] [DECORATOR] Mushroom applied to Player
+[2025-12-14 20:52:58] [OBSERVER] Event: Score - Data: 600
+[2025-12-14 20:52:58] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-14 20:53:01] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-14 20:53:01] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-14 20:53:05] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-14 20:53:05] [LEVEL] Checkpoint activated: 
+[2025-12-14 20:53:07] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:53:07] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-14 20:53:07] [DECORATOR] FireFlower applied to Player
+[2025-12-14 20:53:07] [OBSERVER] Event: Score - Data: 1100
+[2025-12-14 20:53:09] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-14 20:53:10] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-14 20:53:11] [OBSERVER] Event: Coin collected - Data: 10
+[2025-12-14 20:53:13] [DECORATOR] Star applied to Player
+[2025-12-14 20:53:13] [FACTORY] PowerUpFactory created: STAR
+[2025-12-14 20:53:13] [DECORATOR] Star applied to Player
+[2025-12-14 20:53:13] [OBSERVER] Event: Score - Data: 1600
+[2025-12-14 20:53:16] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-14 20:53:16] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-14 20:53:16] [] Loaded 10 leaderboard entries
+[2025-12-14 20:53:16] [OBSERVER] Event: New leaderboard entry - Data: Guest: 1600
+[2025-12-14 20:53:16] [STATE] Game: PLAYING → VICTORY
+[2025-12-14 20:53:18] [LEVEL] Advanced to: World 1-2: Underground
+[2025-12-14 20:53:18] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:53:18] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:53:18] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:53:18] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-14 20:53:18] [LEVEL] Started: World 1-2: Underground
+[2025-12-14 20:53:18] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-14 20:53:18] [STATE] Game: VICTORY → PLAYING
+[2025-12-14 20:53:20] [OBSERVER] Event: Coin collected - Data: 11
+[2025-12-14 20:53:21] [OBSERVER] Event: Coin collected - Data: 12
+[2025-12-14 20:53:21] [OBSERVER] Event: Coin collected - Data: 13
+[2025-12-14 20:53:21] [OBSERVER] Event: Coin collected - Data: 14
+[2025-12-14 20:53:21] [OBSERVER] Event: Coin collected - Data: 15
+[2025-12-14 20:53:24] [PLAYER] Death: Fell off map
+[2025-12-14 20:53:24] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-14 20:53:24] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-14 20:53:24] [OBSERVER] Event: Score - Data: 2200
+[2025-12-14 20:53:24] [PLAYER] Enemy defeated: Goomba
+[2025-12-14 20:53:30] [PLAYER] Death: Fell off map
+[2025-12-14 20:53:30] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-14 20:53:30] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-14 20:53:30] [STATE] Game: PLAYING → PAUSED
+[2025-12-14 20:53:40] [STATE] Game: PAUSED → MENU
+[2025-12-14 20:53:43] [STATE] Game: MENU → LEADERBOARD
+[2025-12-14 20:53:49] [STATE] Game: LEADERBOARD → MENU
+[2025-12-14 20:53:50] [STATE] Game: MENU → LOGIN
+[2025-12-14 20:53:51] [AUTH] Guest login: Guest
+[2025-12-14 20:53:51] [STATE] Game: LOGIN → MENU
+[2025-12-14 20:53:51] [STATE] Game: MENU → LOGIN
+[2025-12-14 20:53:59] [AUTH] Guest login: Guest
+[2025-12-14 20:53:59] [STATE] Game: LOGIN → MENU

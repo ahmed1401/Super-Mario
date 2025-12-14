@@ -1,0 +1,22 @@
+{
+  "ahmed": {
+    "username": "ahmed",
+    "passwordHash": "b700b25e",
+    "highScore": 1400,
+    "lastLevel": 1,
+    "savedLives": 3,
+    "savedScore": 0,
+    "totalCoinsCollected": 0,
+    "isGuest": false
+  },
+  "ahmeeed": {
+    "username": "AHMEEED",
+    "passwordHash": "b700b25e",
+    "highScore": 1100,
+    "lastLevel": 1,
+    "savedLives": 3,
+    "savedScore": 0,
+    "totalCoinsCollected": 0,
+    "isGuest": false
+  }
+}
