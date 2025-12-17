@@ -101,30 +101,31 @@ How the modules interact with each other.
 classDiagram
     class Main
     class GameEngine
-    
-    package "Core" {
+
+    namespace Core {
         class GameStateManager
         class InputManager
         class AssetManager
     }
-    
-    package "Game Domain" {
+
+    namespace "GameDomain" {
         class World
         class Player
         class Enemy
     }
-    
-    package "Data" {
+
+    namespace Data {
         class AuthenticationService
         class LeaderboardService
     }
 
     Main --> GameEngine
-    GameEngine --> GameStateManager
-    GameStateManager --> World
-    World --> Player
-    World --> Enemy
-    GameStateManager --> AuthenticationService
+    GameEngine --> Core.GameStateManager
+    Core.GameStateManager --> GameDomain.World
+    GameDomain.World --> GameDomain.Player
+    GameDomain.World --> GameDomain.Enemy
+    Core.GameStateManager --> Data.AuthenticationService
+
 ```
 
 ### 4.2 State Pattern (Game Flow)
