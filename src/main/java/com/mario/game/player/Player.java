@@ -14,9 +14,10 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Main Player class that uses the Decorator pattern for power-ups.
- * Handles physics, movement, and rendering.
+ * Main Player class implementing the Decorator pattern for power-ups.
+ * Responsible for handling movement, physics, and rendering.
  */
+
 public class Player {
 
     // Position and size
@@ -63,16 +64,18 @@ public class Player {
         GameLogger.logDecoratorApplied(decorator.getDecoratorName(), "Player");
     }
 
-    /**
-     * Get current width (affected by decorators)
-     */
+  /**
+ * Returns the current width, including any decorator effects
+ */
+
     public double getWidth() {
         return baseWidth * component.getSizeMultiplier();
     }
 
-    /**
-     * Get current height (affected by decorators)
-     */
+/**
+ * Returns the current height, including any decorator effects
+ */
+
     public double getHeight() {
         return baseHeight * component.getSizeMultiplier();
     }
@@ -86,7 +89,7 @@ public class Player {
 
         animationTime += deltaTime;
 
-        // Update decorators and remove expired ones
+        // Update active decorators and discard any that have expired
         component.update(deltaTime);
         cleanupExpiredDecorators();
 
@@ -120,11 +123,13 @@ public class Player {
             facingRight = true;
         }
 
-        // Clamp horizontal speed
+       // Limit horizontal movement speed
+
         double maxSpeed = speed;
         velocityX = Math.max(-maxSpeed, Math.min(maxSpeed, velocityX));
 
-        // Jump (with double-jump support)
+        // Handle jumping, including double-jump capability
+
         boolean jumpPressed = pressedKeys.contains(KeyCode.SPACE) ||
                 pressedKeys.contains(KeyCode.UP) ||
                 pressedKeys.contains(KeyCode.W);

@@ -6,13 +6,15 @@ import com.mario.utils.GameLogger;
 /**
  * DECORATOR PATTERN - Abstract Decorator
  * 
- * Base class for all power-up decorators.
- * Wraps a PlayerComponent and adds additional behavior.
+ * Serves as the base class for all power-up decorators.
+ * Encapsulates a PlayerComponent to extend its behavior.
  */
+
 public abstract class PowerUpDecorator implements PlayerComponent {
 
     protected PlayerComponent wrappedComponent;
-    protected double duration; // Duration in seconds, -1 for permanent
+    protected double duration; // Duration in seconds (-1 indicates a permanent effect)
+
     protected double remainingTime;
     protected boolean isExpired = false;
 
@@ -21,13 +23,15 @@ public abstract class PowerUpDecorator implements PlayerComponent {
         this.duration = duration;
         this.remainingTime = duration;
 
-        // Log the decorator being applied
+        // Record which decorator is being applied
+
         GameLogger.logDecoratorApplied(getDecoratorName(), "Player");
     }
 
-    /**
-     * Get the name of this decorator (for logging)
-     */
+  /**
+ * Retrieves the decorator's name for logging purposes
+ */
+
     public abstract String getDecoratorName();
 
     @Override
@@ -72,7 +76,8 @@ public abstract class PowerUpDecorator implements PlayerComponent {
 
     @Override
     public void update(double deltaTime) {
-        // Update wrapped component first
+        // First, update the wrapped component
+
         wrappedComponent.update(deltaTime);
 
         // Update duration timer
@@ -85,23 +90,26 @@ public abstract class PowerUpDecorator implements PlayerComponent {
         }
     }
 
-    /**
-     * Check if this power-up has expired
-     */
+ /**
+ * Determines whether this power-up has expired
+ */
+
     public boolean isExpired() {
         return isExpired;
     }
 
-    /**
-     * Get remaining time for this power-up
-     */
+   /**
+ * Returns the remaining duration of this power-up
+ */
+
     public double getRemainingTime() {
         return remainingTime;
     }
 
-    /**
-     * Get the wrapped component
-     */
+   /**
+ * Returns the wrapped component
+ */
+
     public PlayerComponent getWrappedComponent() {
         return wrappedComponent;
     }

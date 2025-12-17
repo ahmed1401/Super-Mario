@@ -28,12 +28,14 @@ public class StarDecorator extends PowerUpDecorator {
 
     @Override
     public boolean isInvincible() {
-        return !isExpired; // Invincible until star effect ends
+        return !isExpired; // Player remains invincible until the star effect wears off
+
     }
 
     @Override
     public double getSpeed() {
-        // Star also gives a speed boost
+       // Star power-up also increases movement speed
+
         if (!isExpired) {
             return wrappedComponent.getSpeed() * SPEED_BOOST;
         }

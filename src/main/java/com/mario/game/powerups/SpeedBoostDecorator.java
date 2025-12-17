@@ -1,13 +1,13 @@
 package com.mario.game.powerups;
 
 import com.mario.game.player.PlayerComponent;
-
 /**
  * DECORATOR PATTERN - Concrete Decorator
  * 
- * Speed Boost power-up: Temporarily increases movement speed.
- * Time-based power-up (default 8 seconds).
+ * Speed Boost power-up: Temporarily enhances the player's movement speed.
+ * Duration-based effect (default: 8 seconds).
  */
+
 public class SpeedBoostDecorator extends PowerUpDecorator {
 
     private static final double DEFAULT_DURATION = 8.0;

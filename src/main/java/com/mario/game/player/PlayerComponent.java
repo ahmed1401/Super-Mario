@@ -1,19 +1,20 @@
 package com.mario.game.player;
 
-/**
- * DECORATOR PATTERN - Component Interface
- * 
- * Defines the interface for all player capabilities.
- * Both the concrete component (BasePlayer) and decorators (power-ups)
- * implement this interface.
- */
+    /**
+    * DECORATOR PATTERN - Component Interface
+    *  
+    * Specifies the interface for all player behaviors.
+    * Implemented by both the concrete component (BasePlayer) and power-up decorators.
+    */
+
 public interface PlayerComponent {
 
     /**
-     * Get movement speed
-     * 
-     * @return Speed multiplier (1.0 is normal)
-     */
+    * Retrieves the player's movement speed.
+    * 
+    * @return Speed multiplier (1.0 represents normal speed)
+    */
+
     double getSpeed();
 
     /**
@@ -24,10 +25,11 @@ public interface PlayerComponent {
     double getJumpForce();
 
     /**
-     * Get maximum health
-     * 
-     * @return Max health points
-     */
+    * Retrieves the player's maximum health.
+    * 
+    * @return Maximum health points
+    */
+
     int getMaxHealth();
 
     /**
@@ -59,10 +61,11 @@ public interface PlayerComponent {
     boolean hasShield();
 
     /**
-     * Get player size multiplier
-     * 
-     * @return Size multiplier (1.0 is normal)
-     */
+    * Retrieves the player's size multiplier.
+    * 
+    * @return Size factor (1.0 represents normal size)
+    */
+
     double getSizeMultiplier();
 
     /**

@@ -5,9 +5,10 @@ import com.mario.game.player.PlayerComponent;
 /**
  * DECORATOR PATTERN - Concrete Decorator
  * 
- * Shield power-up: Absorbs one hit of damage.
- * Permanent until activated (absorbs damage).
+ * Shield power-up: Protects the player by absorbing a single hit.
+ * Remains active until it absorbs damage.
  */
+
 public class ShieldDecorator extends PowerUpDecorator {
 
     private boolean shieldActive = true;
@@ -26,9 +27,10 @@ public class ShieldDecorator extends PowerUpDecorator {
         return shieldActive;
     }
 
-    /**
-     * Called when shield absorbs damage
-     */
+  /**
+ * Triggered when the shield absorbs damage
+ */
+
     public void absorbDamage() {
         if (shieldActive) {
             shieldActive = false;

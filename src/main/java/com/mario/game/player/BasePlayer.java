@@ -3,9 +3,10 @@ package com.mario.game.player;
 /**
  * DECORATOR PATTERN - Concrete Component
  * 
- * The base player with default abilities.
- * Decorators wrap this to add power-up effects.
+ * Represents the base player with standard abilities.
+ * Power-up decorators wrap this component to enhance its functionality.
  */
+
 public class BasePlayer implements PlayerComponent {
 
     private int currentHealth;
