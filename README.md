@@ -92,9 +92,8 @@ src/main/java/com/mario/
 
 ## 📚 Documentation
 
-- **[FullReport.md](FullReport.md)** - Comprehensive project documentation with UML diagrams
-- **[data/users.json](data/users.json)** - User accounts storage
-- **[data/leaderboard.json](data/leaderboard.json)** - High scores
+- **[submission_report.md](submission_report.md)** - Comprehensive project documentation with UML diagrams
+- **[complete_class_diagram.md](complete_class_diagram.md)** - Complete class diagram of the project
 
 ---
 
