@@ -1,6 +1,5 @@
 # 🎮 Super Mario  - Project Submission Report
 
-**Date:** December 14, 2025
 **Project:** Design Patterns Implementation in Game Development
 
 ---
@@ -108,7 +107,7 @@ classDiagram
         class AssetManager
     }
 
-    namespace "GameDomain" {
+    namespace GameDomain {
         class World
         class Player
         class Enemy
@@ -125,7 +124,6 @@ classDiagram
     GameDomain.World --> GameDomain.Player
     GameDomain.World --> GameDomain.Enemy
     Core.GameStateManager --> Data.AuthenticationService
-
 ```
 
 ### 4.2 State Pattern (Game Flow)
@@ -166,14 +164,14 @@ Managed by **Skander**. How the world is structured.
 
 ```mermaid
 graph TD
-    W[World (Root)] --> L1[Level 1]
-    W --> L2[Level 2]
-    L1 --> P1[Platform Group]
-    L1 --> E1[Enemy Group]
-    L1 --> I1[Item Group]
-    P1 --> B1[Block]
-    P1 --> B2[Pipe]
-    E1 --> G1[Goomba]
+    W["World (Root)"] --> L1["Level 1"]
+    W --> L2["Level 2"]
+    L1 --> P1["Platform Group"]
+    L1 --> E1["Enemy Group"]
+    L1 --> I1["Item Group"]
+    P1 --> B1["Block"]
+    P1 --> B2["Pipe"]
+    E1 --> G1["Goomba"]
 ```
 
 ### 4.5 Data Flow & Observer
@@ -208,7 +206,6 @@ sequenceDiagram
 
 ## 📸 6. Visual Gallery
 
-*(Insert screenshots here of:)*
 1.  **Login Screen:** Showing the secure entry point.
 2.  **Level 1 Gameplay:** Showing the player, HUD, and basic enemies.
 3.  **Boss Fight:** Showing the final challenge.
