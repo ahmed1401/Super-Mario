@@ -108,10 +108,3 @@ mvn package          # Create JAR
 
 ---
 
-## 📜 License
-
-Educational purposes only. No affiliation with Nintendo.
-
----
-
-*Made with ❤️ for learning Design Patterns*
