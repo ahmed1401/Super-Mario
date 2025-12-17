@@ -206,10 +206,26 @@ sequenceDiagram
 
 ## 📸 6. Visual Gallery
 
-1.  **Login Screen:** Showing the secure entry point.
-2.  **Level 1 Gameplay:** Showing the player, HUD, and basic enemies.
-3.  **Boss Fight:** Showing the final challenge.
-4.  **UML Diagrams:** (As shown above).
+### Login & Menu
+![Login Screen](images/login.png)
+*Figure 1: Safe and secure login entry point.*
+
+![Menu Screen](images/menu.png)
+*Figure 2: Main Menu waiting for player input.*
+
+### Gameplay
+![Level Selection](images/level_selection.png)
+*Figure 3: selecting a level to play.*
+
+![Level 1 Gameplay](images/level1.png)
+*Figure 4: Classic Platformer action in Level 1.*
+
+### Leaderboard
+![Leaderboard](images/leaderboard.png)
+*Figure 5: High scores display.*
+
+### UML Diagrams
+(As shown in previous sections)
 
 ---
 
