@@ -11,6 +11,8 @@ import com.mario.utils.GameLogger;
  */
 public class LevelFactory {
 
+    private static final int TOTAL_LEVELS = 3;
+
     /**
      * Create Level 1 - Grassland (Tutorial level)
      */
@@ -184,5 +186,39 @@ public class LevelFactory {
         world.addLevel(createLevel2());
         world.addLevel(createLevel3());
         return world;
+    }
+
+    /**
+     * Utility to build a level by number while preserving existing creation logic.
+     */
+    public static Level createLevelByNumber(int levelNumber) {
+        switch (levelNumber) {
+            case 1:
+                return createLevel1();
+            case 2:
+                return createLevel2();
+            case 3:
+                return createLevel3();
+            default:
+                throw new IllegalArgumentException("Unknown level number: " + levelNumber);
+        }
+    }
+
+    /**
+     * Total count of predefined levels.
+     */
+    public static int getTotalLevels() {
+        return TOTAL_LEVELS;
+    }
+
+    /**
+     * Helper to list predefined level names for UI/logging.
+     */
+    public static String[] listLevelNames() {
+        return new String[] {
+                "World 1-1: Grassland",
+                "World 1-2: Underground",
+                "World 1-3: Castle"
+        };
     }
 }

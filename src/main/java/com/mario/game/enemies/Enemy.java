@@ -99,4 +99,18 @@ public abstract class Enemy {
         this.x = x;
         this.y = y;
     }
+
+    /**
+     * Apply stat overrides while preserving current facing direction.
+     */
+    public void applyStats(int health, int damage, int scoreValue, double speed) {
+        this.health = health;
+        this.damage = damage;
+        this.scoreValue = scoreValue;
+        boolean movingRight = velocityX > 0;
+        this.speed = speed;
+        if (velocityX != 0) {
+            this.velocityX = movingRight ? speed : -speed;
+        }
+    }
 }

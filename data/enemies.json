@@ -1,0 +1,5 @@
+{
+  "GOOMBA": { "health": 1, "damage": 1, "scoreValue": 70, "speed": 33 },
+  "KOOPA":  { "health": 3, "damage": 1, "scoreValue": 140, "speed": 27 },
+  "BOSS":   { "health": 9, "damage": 3, "scoreValue": 1600, "speed": 21 }
+}

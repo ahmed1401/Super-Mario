@@ -2612,3 +2612,337 @@
 [2025-12-14 20:53:51] [STATE] Game: MENU → LOGIN
 [2025-12-14 20:53:59] [AUTH] Guest login: Guest
 [2025-12-14 20:53:59] [STATE] Game: LOGIN → MENU
+[2025-12-18 20:27:06] [] Starting Super Mario Game...
+[2025-12-18 20:27:06] [] Loaded 2 users
+[2025-12-18 20:27:06] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-18 20:27:06] [LEVEL] World created: Super Mario World 1
+[2025-12-18 20:27:06] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:27:06] [FACTORY] LevelFactory created: Level 1
+[2025-12-18 20:27:06] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-18 20:27:06] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:27:06] [FACTORY] LevelFactory created: Level 2
+[2025-12-18 20:27:06] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-18 20:27:06] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:27:06] [FACTORY] EnemyFactory created: BOSS
+[2025-12-18 20:27:06] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-18 20:27:06] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-18 20:27:06] [] GameEngine initialized
+[2025-12-18 20:27:06] [STATE] Game: LOGIN ? LOGIN
+[2025-12-18 20:27:06] [] Game loop started
+[2025-12-18 20:28:24] [AUTH] Login failed: ahmed
+[2025-12-18 20:28:53] [AUTH] Login failed: ahmed
+[2025-12-18 20:28:55] [AUTH] Login failed: ahmed
+[2025-12-18 20:28:57] [AUTH] Login failed: ahmed
+[2025-12-18 20:28:57] [AUTH] Login failed: ahmed
+[2025-12-18 20:28:58] [AUTH] Login failed: ahmed
+[2025-12-18 20:29:59] [AUTH] Login failed: ahmeeed
+[2025-12-18 20:30:00] [AUTH] Login failed: ahmeeed
+[2025-12-18 20:30:01] [AUTH] Login failed: ahmeeed
+[2025-12-18 20:30:01] [AUTH] Login failed: ahmeeed
+[2025-12-18 20:32:42] [AUTH] Login failed: ahmed
+[2025-12-18 20:32:43] [AUTH] Login failed: ahmed
+[2025-12-18 20:32:44] [AUTH] Login failed: ahmed
+[2025-12-18 20:32:45] [AUTH] Login failed: ahmed
+[2025-12-18 20:32:45] [AUTH] Login failed: ahmed
+[2025-12-18 20:33:00] [AUTH] Registered: samia
+[2025-12-18 20:33:00] [AUTH] Login successful: samia
+[2025-12-18 20:33:00] [STATE] Game: LOGIN ? MENU
+[2025-12-18 20:33:03] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-18 20:33:03] [LEVEL] World created: Super Mario World 1
+[2025-12-18 20:33:03] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:33:03] [FACTORY] LevelFactory created: Level 1
+[2025-12-18 20:33:03] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-18 20:33:03] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:33:03] [FACTORY] LevelFactory created: Level 2
+[2025-12-18 20:33:03] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-18 20:33:03] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:33:03] [FACTORY] EnemyFactory created: BOSS
+[2025-12-18 20:33:03] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-18 20:33:03] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-18 20:33:03] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-18 20:33:03] [LEVEL] Started: World 1-1: Grassland
+[2025-12-18 20:33:03] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-18 20:33:03] [] SoundManager initialized
+[2025-12-18 20:33:03] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-18 20:33:03] [LEVEL] Started: World 1-1: Grassland
+[2025-12-18 20:33:03] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-18 20:33:03] [STATE] Game: MENU ? PLAYING
+[2025-12-18 20:33:09] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-18 20:33:09] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-18 20:33:09] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-18 20:33:11] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-18 20:33:21] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-18 20:33:21] [OBSERVER] Event: Coin collected - Data: 6
+[2025-12-18 20:33:30] [DECORATOR] FireFlower applied to Player
+[2025-12-18 20:33:30] [FACTORY] PowerUpFactory created: FIRE_FLOWER
+[2025-12-18 20:33:30] [DECORATOR] FireFlower applied to Player
+[2025-12-18 20:33:30] [OBSERVER] Event: Score - Data: 800
+[2025-12-18 20:33:49] [OBSERVER] Event: Coin collected - Data: 7
+[2025-12-18 20:33:49] [OBSERVER] Event: Coin collected - Data: 8
+[2025-12-18 20:33:49] [OBSERVER] Event: Coin collected - Data: 9
+[2025-12-18 20:34:52] [OBSERVER] Event: Notification - Data: Level Complete!
+[2025-12-18 20:34:52] [LEVEL] Completed: World 1-1: Grassland
+[2025-12-18 20:34:52] [] Loaded 11 leaderboard entries
+[2025-12-18 20:34:52] [OBSERVER] Event: New leaderboard entry - Data: samia: 1100
+[2025-12-18 20:34:52] [AUTH] New high score: samia: 1100
+[2025-12-18 20:34:52] [STATE] Game: PLAYING ? VICTORY
+[2025-12-18 20:34:55] [LEVEL] Advanced to: World 1-2: Underground
+[2025-12-18 20:34:55] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-18 20:34:55] [LEVEL] Started: World 1-2: Underground
+[2025-12-18 20:34:55] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-18 20:34:55] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-18 20:34:55] [LEVEL] Started: World 1-2: Underground
+[2025-12-18 20:34:55] [OBSERVER] Event: Notification - Data: Level 2 Start!
+[2025-12-18 20:34:55] [STATE] Game: VICTORY ? PLAYING
+[2025-12-18 20:34:59] [OBSERVER] Event: Score - Data: 1170
+[2025-12-18 20:34:59] [PLAYER] Enemy defeated: Goomba
+[2025-12-18 20:35:13] [PLAYER] Death: Took damage
+[2025-12-18 20:35:13] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-18 20:35:13] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-18 20:35:25] [PLAYER] Death: Took damage
+[2025-12-18 20:35:25] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-18 20:35:25] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-18 20:35:26] [PLAYER] Death: Took damage
+[2025-12-18 20:35:26] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-18 20:35:26] [PLAYER] Game Over: No lives remaining
+[2025-12-18 20:35:26] [OBSERVER] Event: New leaderboard entry - Data: samia: 1170
+[2025-12-18 20:35:26] [AUTH] New high score: samia: 1170
+[2025-12-18 20:35:26] [STATE] Game: PLAYING ? GAME_OVER
+[2025-12-18 20:35:31] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-18 20:35:31] [LEVEL] World created: Super Mario World 1
+[2025-12-18 20:35:31] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:35:31] [FACTORY] LevelFactory created: Level 1
+[2025-12-18 20:35:31] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-18 20:35:31] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:35:31] [FACTORY] LevelFactory created: Level 2
+[2025-12-18 20:35:31] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-18 20:35:31] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:35:31] [FACTORY] EnemyFactory created: BOSS
+[2025-12-18 20:35:31] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-18 20:35:31] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-18 20:35:31] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-18 20:35:31] [LEVEL] Started: World 1-1: Grassland
+[2025-12-18 20:35:31] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-18 20:35:31] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-18 20:35:31] [LEVEL] Started: World 1-1: Grassland
+[2025-12-18 20:35:31] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-18 20:35:31] [STATE] Game: GAME_OVER ? PLAYING
+[2025-12-18 20:36:31] [] Starting Super Mario Game...
+[2025-12-18 20:36:31] [] Loaded 3 users
+[2025-12-18 20:36:31] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-18 20:36:31] [LEVEL] World created: Super Mario World 1
+[2025-12-18 20:36:31] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:31] [FACTORY] LevelFactory created: Level 1
+[2025-12-18 20:36:31] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-18 20:36:31] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:31] [FACTORY] LevelFactory created: Level 2
+[2025-12-18 20:36:31] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-18 20:36:31] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:31] [FACTORY] EnemyFactory created: BOSS
+[2025-12-18 20:36:31] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-18 20:36:31] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-18 20:36:31] [] GameEngine initialized
+[2025-12-18 20:36:31] [STATE] Game: LOGIN ? LOGIN
+[2025-12-18 20:36:31] [] Game loop started
+[2025-12-18 20:36:45] [AUTH] Login successful: samia
+[2025-12-18 20:36:45] [STATE] Game: LOGIN ? MENU
+[2025-12-18 20:36:49] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-18 20:36:49] [LEVEL] World created: Super Mario World 1
+[2025-12-18 20:36:49] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:49] [FACTORY] LevelFactory created: Level 1
+[2025-12-18 20:36:49] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-18 20:36:49] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:49] [FACTORY] LevelFactory created: Level 2
+[2025-12-18 20:36:49] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-18 20:36:49] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:36:49] [FACTORY] EnemyFactory created: BOSS
+[2025-12-18 20:36:49] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-18 20:36:49] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-18 20:36:49] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-18 20:36:49] [LEVEL] Started: World 1-1: Grassland
+[2025-12-18 20:36:49] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-18 20:36:49] [] SoundManager initialized
+[2025-12-18 20:36:49] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-18 20:36:49] [LEVEL] Started: World 1-1: Grassland
+[2025-12-18 20:36:49] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-18 20:36:49] [STATE] Game: MENU ? PLAYING
+[2025-12-18 20:36:57] [PLAYER] Death: Took damage
+[2025-12-18 20:36:57] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-18 20:36:57] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-18 20:36:59] [PLAYER] Death: Took damage
+[2025-12-18 20:36:59] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-18 20:36:59] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-18 20:36:59] [OBSERVER] Event: Score - Data: 70
+[2025-12-18 20:36:59] [PLAYER] Enemy defeated: Goomba
+[2025-12-18 20:37:11] [PLAYER] Death: Took damage
+[2025-12-18 20:37:11] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-18 20:37:11] [PLAYER] Game Over: No lives remaining
+[2025-12-18 20:37:11] [] Loaded 13 leaderboard entries
+[2025-12-18 20:37:11] [OBSERVER] Event: New leaderboard entry - Data: samia: 70
+[2025-12-18 20:37:11] [STATE] Game: PLAYING ? GAME_OVER
+[2025-12-18 20:41:30] [] Starting Super Mario Game...
+[2025-12-18 20:41:30] [] Loaded 3 users
+[2025-12-18 20:41:30] [OBSERVER] Event: Observer added - Data: HUDObserver
+[2025-12-18 20:41:30] [LEVEL] World created: Super Mario World 1
+[2025-12-18 20:41:31] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-18 20:41:31] [] Enemy configs loaded: GOOMBA(h=1,d=1,s=70,v=33.0) | KOOPA(h=3,d=1,s=140,v=27.0) | BOSS(h=9,d=3,s=1600,v=21.0)
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:31] [FACTORY] LevelFactory created: Level 1
+[2025-12-18 20:41:31] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-18 20:41:31] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:31] [FACTORY] LevelFactory created: Level 2
+[2025-12-18 20:41:31] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-18 20:41:31] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:31] [FACTORY] EnemyFactory created: BOSS
+[2025-12-18 20:41:31] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-18 20:41:31] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-18 20:41:31] [] GameEngine initialized
+[2025-12-18 20:41:31] [STATE] Game: LOGIN ? LOGIN
+[2025-12-18 20:41:31] [] Game loop started
+[2025-12-18 20:41:38] [AUTH] Login successful: samia
+[2025-12-18 20:41:38] [STATE] Game: LOGIN ? MENU
+[2025-12-18 20:41:39] [LEVEL] Jumped to: World 1-1: Grassland
+[2025-12-18 20:41:39] [LEVEL] World created: Super Mario World 1
+[2025-12-18 20:41:39] [LEVEL] Created: World 1-1: Grassland (Level 1)
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:39] [FACTORY] LevelFactory created: Level 1
+[2025-12-18 20:41:39] [LEVEL] Level added to world: World 1-1: Grassland
+[2025-12-18 20:41:39] [LEVEL] Created: World 1-2: Underground (Level 2)
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:39] [FACTORY] LevelFactory created: Level 2
+[2025-12-18 20:41:39] [LEVEL] Level added to world: World 1-2: Underground
+[2025-12-18 20:41:39] [LEVEL] Created: World 1-3: Castle (Level 3)
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: KOOPA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: GOOMBA
+[2025-12-18 20:41:39] [FACTORY] EnemyFactory created: BOSS
+[2025-12-18 20:41:39] [FACTORY] LevelFactory created: Level 3 (Boss)
+[2025-12-18 20:41:39] [LEVEL] Level added to world: World 1-3: Castle
+[2025-12-18 20:41:39] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-18 20:41:39] [LEVEL] Started: World 1-1: Grassland
+[2025-12-18 20:41:39] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-18 20:41:40] [] SoundManager initialized
+[2025-12-18 20:41:40] [PLAYER] Created: at (50.0, 400.0)
+[2025-12-18 20:41:40] [LEVEL] Started: World 1-1: Grassland
+[2025-12-18 20:41:40] [OBSERVER] Event: Notification - Data: Level 1 Start!
+[2025-12-18 20:41:40] [STATE] Game: MENU ? PLAYING
+[2025-12-18 20:41:43] [OBSERVER] Event: Coin collected - Data: 1
+[2025-12-18 20:41:43] [OBSERVER] Event: Coin collected - Data: 2
+[2025-12-18 20:41:44] [OBSERVER] Event: Coin collected - Data: 3
+[2025-12-18 20:41:45] [OBSERVER] Event: Coin collected - Data: 4
+[2025-12-18 20:41:47] [DECORATOR] Mushroom applied to Player
+[2025-12-18 20:41:47] [FACTORY] PowerUpFactory created: MUSHROOM
+[2025-12-18 20:41:47] [DECORATOR] Mushroom applied to Player
+[2025-12-18 20:41:47] [OBSERVER] Event: Score - Data: 600
+[2025-12-18 20:41:47] [OBSERVER] Event: Coin collected - Data: 5
+[2025-12-18 20:41:58] [PLAYER] Lost power-ups: 
+[2025-12-18 20:41:59] [OBSERVER] Event: Score - Data: 770
+[2025-12-18 20:41:59] [PLAYER] Enemy defeated: Goomba
+[2025-12-18 20:42:07] [OBSERVER] Event: Notification - Data: Checkpoint!
+[2025-12-18 20:42:07] [LEVEL] Checkpoint activated: 
+[2025-12-18 20:42:07] [PLAYER] Death: Fell off map
+[2025-12-18 20:42:07] [PLAYER] Lost life: Lives remaining: 2
+[2025-12-18 20:42:07] [OBSERVER] Event: Notification - Data: Lives: 2
+[2025-12-18 20:42:08] [OBSERVER] Event: Score - Data: 840
+[2025-12-18 20:42:08] [PLAYER] Enemy defeated: Goomba
+[2025-12-18 20:42:08] [PLAYER] Death: Fell off map
+[2025-12-18 20:42:08] [PLAYER] Lost life: Lives remaining: 1
+[2025-12-18 20:42:08] [OBSERVER] Event: Notification - Data: Lives: 1
+[2025-12-18 20:42:09] [PLAYER] Death: Fell off map
+[2025-12-18 20:42:09] [PLAYER] Lost life: Lives remaining: 0
+[2025-12-18 20:42:09] [PLAYER] Game Over: No lives remaining
+[2025-12-18 20:42:09] [] Loaded 14 leaderboard entries
+[2025-12-18 20:42:09] [OBSERVER] Event: New leaderboard entry - Data: samia: 840
+[2025-12-18 20:42:09] [STATE] Game: PLAYING ? GAME_OVER

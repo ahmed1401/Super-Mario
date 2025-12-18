@@ -9,6 +9,9 @@ import javafx.scene.paint.Color;
  */
 public class Boss extends Enemy {
 
+    private static final int DEFAULT_MAX_HEALTH = 8;
+    private int maxHealth = DEFAULT_MAX_HEALTH;
+
     private double attackTimer = 0;
     private double attackInterval = 2.0;
     private boolean isAttacking = false;
@@ -16,10 +19,11 @@ public class Boss extends Enemy {
     private double attackTime = 0;
 
     public Boss(double x, double y) {
-        super(x, y, 5, 2, 1000);
+        super(x, y, DEFAULT_MAX_HEALTH, 3, 1500);
+        this.maxHealth = DEFAULT_MAX_HEALTH;
         this.width = 80;
         this.height = 96;
-        this.speed = 25;
+        this.speed = 22;
         this.velocityX = -speed;
     }
 
@@ -115,7 +119,7 @@ public class Boss extends Enemy {
         // Health bar
         gc.setFill(Color.DARKGRAY);
         gc.fillRect(screenX, screenY - 15, width, 8);
-        double healthPercent = (double) health / 5.0;
+        double healthPercent = (double) health / (double) maxHealth;
         gc.setFill(healthPercent > 0.5 ? Color.GREEN : healthPercent > 0.25 ? Color.YELLOW : Color.RED);
         gc.fillRect(screenX, screenY - 15, width * healthPercent, 8);
     }
@@ -127,5 +131,13 @@ public class Boss extends Enemy {
 
     public boolean isAttacking() {
         return isAttacking;
+    }
+
+    /**
+     * Allow factory overrides of max health for data-driven configs.
+     */
+    public void setMaxHealth(int maxHealth) {
+        this.maxHealth = Math.max(1, maxHealth);
+        this.health = Math.min(this.health, this.maxHealth);
     }
 }

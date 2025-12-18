@@ -10,10 +10,10 @@ import javafx.scene.paint.Color;
 public class Goomba extends Enemy {
 
     public Goomba(double x, double y) {
-        super(x, y, 1, 1, 100);
+        super(x, y, 1, 1, 75);
         this.width = 32;
         this.height = 32;
-        this.speed = 40;
+        this.speed = 35;
         this.velocityX = -speed; // Walk left initially
     }
 

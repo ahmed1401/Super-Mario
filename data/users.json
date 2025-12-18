@@ -18,5 +18,15 @@
     "savedScore": 0,
     "totalCoinsCollected": 0,
     "isGuest": false
+  },
+  "samia": {
+    "username": "samia",
+    "passwordHash": "6824d37",
+    "highScore": 1170,
+    "lastLevel": 1,
+    "savedLives": 3,
+    "savedScore": 0,
+    "totalCoinsCollected": 0,
+    "isGuest": false
   }
 }

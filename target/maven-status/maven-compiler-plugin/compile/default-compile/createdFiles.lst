@@ -1,8 +1,13 @@
+com\mario\game\factories\EnemyFactory$2.class
 com\mario\game\states\LevelSelectState$1.class
+com\mario\game\factories\PowerUpFactory$1.class
 com\mario\game\states\SettingsState$1.class
 com\mario\game\states\VictoryState$1.class
 com\mario\game\GameEngine$1.class
+com\mario\game\factories\EnemyFactory$EnemyConfig.class
 com\mario\game\states\MenuState$1.class
+com\mario\game\factories\EnemyFactory$1.class
+com\mario\game\levels\PowerUpItem$1.class
 com\mario\game\states\PausedState$1.class
 com\mario\game\states\LeaderboardState$1.class
 com\mario\game\states\LoginState$1.class

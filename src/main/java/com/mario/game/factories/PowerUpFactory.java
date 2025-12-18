@@ -54,7 +54,7 @@ public class PowerUpFactory {
      * Create power-up from string type name
      */
     public static PowerUpDecorator createPowerUp(String typeName, PlayerComponent component) {
-        PowerUpType type = PowerUpType.valueOf(typeName.toUpperCase());
+        PowerUpType type = parseType(typeName);
         return createPowerUp(type, component);
     }
 
@@ -70,5 +70,41 @@ public class PowerUpFactory {
             default:
                 return createPowerUp(type, component);
         }
+    }
+
+    /**
+     * Overload for string input with friendlier errors.
+     */
+    public static PowerUpDecorator createTimedPowerUp(String typeName, PlayerComponent component, double duration) {
+        PowerUpType type = parseType(typeName);
+        return createTimedPowerUp(type, component, duration);
+    }
+
+    /**
+     * Validate and parse a power-up type name.
+     */
+    public static PowerUpType parseType(String typeName) {
+        if (typeName == null) {
+            throw new IllegalArgumentException("Power-up type cannot be null");
+        }
+        String normalized = typeName.trim().toUpperCase();
+        try {
+            return PowerUpType.valueOf(normalized);
+        } catch (IllegalArgumentException ex) {
+            throw new IllegalArgumentException("Unknown power-up type: " + typeName + ". Supported: "
+                    + String.join(", ", listAvailableTypes()), ex);
+        }
+    }
+
+    /**
+     * List available power-up identifiers for UI/help.
+     */
+    public static String[] listAvailableTypes() {
+        PowerUpType[] values = PowerUpType.values();
+        String[] names = new String[values.length];
+        for (int i = 0; i < values.length; i++) {
+            names[i] = values[i].name();
+        }
+        return names;
     }
 }

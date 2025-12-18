@@ -13,10 +13,10 @@ public class Koopa extends Enemy {
     private double shellSpeedMultiplier = 5;
 
     public Koopa(double x, double y) {
-        super(x, y, 2, 1, 200);
+        super(x, y, 3, 1, 150);
         this.width = 32;
         this.height = 48;
-        this.speed = 30;
+        this.speed = 28;
         this.velocityX = -speed;
     }
 
