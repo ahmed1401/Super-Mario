@@ -12,12 +12,16 @@ import com.mario.utils.GameLogger;
 public class LevelFactory {
 
     private static final int TOTAL_LEVELS = 3;
+    private static final String WORLD_NAME = "Super Mario World 1";
+    private static final String LEVEL1_NAME = "World 1-1: Grassland";
+    private static final String LEVEL2_NAME = "World 1-2: Underground";
+    private static final String LEVEL3_NAME = "World 1-3: Castle";
 
     /**
      * Create Level 1 - Grassland (Tutorial level)
      */
     public static Level createLevel1() {
-        Level level = new Level("World 1-1: Grassland", 1, 3000, 600);
+        Level level = new Level(LEVEL1_NAME, 1, 3000, 600);
         level.setPlayerStart(50, 400);
         level.setGoalX(2850);
 
@@ -76,7 +80,7 @@ public class LevelFactory {
      * Create Level 2 - Underground
      */
     public static Level createLevel2() {
-        Level level = new Level("World 1-2: Underground", 2, 3500, 600);
+        Level level = new Level(LEVEL2_NAME, 2, 3500, 600);
         level.setPlayerStart(50, 400);
         level.setGoalX(3350);
 
@@ -134,7 +138,7 @@ public class LevelFactory {
      * Create Level 3 - Castle (Boss level)
      */
     public static Level createLevel3() {
-        Level level = new Level("World 1-3: Castle", 3, 2500, 600);
+        Level level = new Level(LEVEL3_NAME, 3, 2500, 600);
         level.setPlayerStart(50, 400);
         level.setGoalX(2350);
 
@@ -181,7 +185,7 @@ public class LevelFactory {
      * Create a world with all levels
      */
     public static World createWorld1() {
-        World world = new World("Super Mario World 1");
+        World world = new World(WORLD_NAME);
         world.addLevel(createLevel1());
         world.addLevel(createLevel2());
         world.addLevel(createLevel3());
@@ -216,9 +220,16 @@ public class LevelFactory {
      */
     public static String[] listLevelNames() {
         return new String[] {
-                "World 1-1: Grassland",
-                "World 1-2: Underground",
-                "World 1-3: Castle"
+                LEVEL1_NAME,
+                LEVEL2_NAME,
+                LEVEL3_NAME
         };
+    }
+
+    /**
+     * Name of the predefined world.
+     */
+    public static String getWorldName() {
+        return WORLD_NAME;
     }
 }

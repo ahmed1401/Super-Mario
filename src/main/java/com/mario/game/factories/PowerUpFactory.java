@@ -81,6 +81,21 @@ public class PowerUpFactory {
     }
 
     /**
+     * Check if a string maps to a supported power-up.
+     */
+    public static boolean isSupported(String typeName) {
+        if (typeName == null) {
+            return false;
+        }
+        try {
+            parseType(typeName);
+            return true;
+        } catch (IllegalArgumentException ex) {
+            return false;
+        }
+    }
+
+    /**
      * Validate and parse a power-up type name.
      */
     public static PowerUpType parseType(String typeName) {
