@@ -49,6 +49,12 @@
   },
   {
     "playerName": "Guest",
+    "score": 2570,
+    "level": 3,
+    "date": "2025-12-21"
+  },
+  {
+    "playerName": "Guest",
     "score": 2300,
     "level": 2,
     "date": "2025-12-14"
@@ -66,6 +72,18 @@
     "date": "2025-12-14"
   },
   {
+    "playerName": "Guest",
+    "score": 1540,
+    "level": 1,
+    "date": "2025-12-21"
+  },
+  {
+    "playerName": "Guest",
+    "score": 1500,
+    "level": 1,
+    "date": "2025-12-21"
+  },
+  {
     "playerName": "samia",
     "score": 1170,
     "level": 2,
@@ -76,6 +94,12 @@
     "score": 1100,
     "level": 1,
     "date": "2025-12-18"
+  },
+  {
+    "playerName": "Guest",
+    "score": 1000,
+    "level": 2,
+    "date": "2025-12-21"
   },
   {
     "playerName": "samia",

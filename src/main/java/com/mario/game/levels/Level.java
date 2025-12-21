@@ -17,11 +17,14 @@ import java.util.List;
  * This is the main composite that groups all level elements together.
  */
 public class Level implements GameComponent {
+    // Visual constants for level rendering
+    private static final Color SKY_COLOR = Color.rgb(92, 148, 252);
+    private static final double PARALLAX_FACTOR = 0.3; // background scroll ratio
 
-    private String name;
-    private int levelNumber;
-    private double width;
-    private double height;
+    private final String name;
+    private final int levelNumber;
+    private final double width;
+    private final double height;
 
     private List<GameComponent> children;
     private List<Platform> platforms;
@@ -94,8 +97,8 @@ public class Level implements GameComponent {
 
     @Override
     public void render(GraphicsContext gc, double cameraX, double cameraY) {
-        // Draw sky background
-        gc.setFill(Color.rgb(92, 148, 252));
+        // Draw sky background (constant to keep visuals consistent)
+        gc.setFill(SKY_COLOR);
         gc.fillRect(0, 0, gc.getCanvas().getWidth(), gc.getCanvas().getHeight());
 
         // Draw background hills
@@ -118,7 +121,7 @@ public class Level implements GameComponent {
     private void drawBackground(GraphicsContext gc, double cameraX) {
         // Hills in background (parallax scrolling)
         gc.setFill(Color.rgb(100, 200, 100));
-        double parallaxOffset = cameraX * 0.3;
+        double parallaxOffset = cameraX * PARALLAX_FACTOR;
         for (int i = 0; i < 10; i++) {
             double hillX = i * 300 - parallaxOffset % 300;
             gc.fillOval(hillX - 50, 400, 200, 150);

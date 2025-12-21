@@ -15,9 +15,9 @@ import java.util.List;
 public class Platform implements GameComponent {
 
     private double x, y, width, height;
-    private Color color;
-    private boolean isSolid = true;
-    private String platformType; // "ground", "brick", "question", "pipe"
+    private final Color color;
+    private final boolean isSolid = true;
+    private final String platformType; // "ground", "brick", "question", "pipe"
 
     public Platform(double x, double y, double width, double height, String type) {
         this.x = x;

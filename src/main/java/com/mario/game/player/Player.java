@@ -28,9 +28,11 @@ public class Player {
     // Physics
     private double velocityX = 0;
     private double velocityY = 0;
+    // Basic physics constants (tuned for arcade feel)
     private static final double GRAVITY = 900;
     private static final double MAX_FALL_SPEED = 600;
     private static final double FRICTION = 0.88;
+    private static final double ACCELERATION = 20;
 
     // State
     private boolean onGround = false;
@@ -111,7 +113,7 @@ public class Player {
 
     private void handleInput(Set<KeyCode> pressedKeys) {
         double speed = component.getSpeed();
-        double acceleration = 20;
+        double acceleration = ACCELERATION;
 
         // Horizontal movement
         if (pressedKeys.contains(KeyCode.LEFT) || pressedKeys.contains(KeyCode.A)) {
@@ -123,7 +125,7 @@ public class Player {
             facingRight = true;
         }
 
-       // Limit horizontal movement speed
+    // Limit horizontal movement speed
 
         double maxSpeed = speed;
         velocityX = Math.max(-maxSpeed, Math.min(maxSpeed, velocityX));

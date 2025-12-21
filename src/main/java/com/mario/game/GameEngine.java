@@ -21,6 +21,8 @@ import java.util.Set;
  * Main game engine handling game logic, rendering, and state.
  */
 public class GameEngine {
+    // Camera smoothing factor for horizontal follow
+    private static final double CAMERA_SMOOTHING = 0.1;
 
     private World world;
     private Level currentLevel;
@@ -131,9 +133,9 @@ public class GameEngine {
     }
 
     private void updateCamera() {
-        // Camera follows player horizontally
+        // Camera follows player horizontally with simple smoothing
         double targetX = player.getX() - screenWidth / 3;
-        cameraX += (targetX - cameraX) * 0.1; // Smooth camera
+        cameraX += (targetX - cameraX) * CAMERA_SMOOTHING;
 
         // Clamp camera to level bounds
         cameraX = Math.max(0, Math.min(cameraX, currentLevel.getWidth() - screenWidth));

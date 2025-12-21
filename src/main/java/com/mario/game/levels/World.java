@@ -15,8 +15,9 @@ import java.util.List;
  */
 public class World implements GameComponent {
 
-    private String name;
-    private List<Level> levels;
+    // World identity and contained levels (immutable references)
+    private final String name;
+    private final List<Level> levels;
     private int currentLevelIndex = 0;
 
     public World(String name) {
@@ -75,6 +76,7 @@ public class World implements GameComponent {
         if (current != null) {
             return current.getBounds();
         }
+        // Safe default bounds when no level is active
         return new Rectangle2D(0, 0, 800, 600);
     }
 
